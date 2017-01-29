@@ -16,7 +16,7 @@ public class UploadFile {
     public void uploadFile(String path) {
         // Upload to Dropbox
         try (InputStream in = new FileInputStream(path)) {
-            FileMetadata metadata = CoreManager.getClient().files().uploadBuilder("/test.txt").uploadAndFinish(in);
+            FileMetadata metadata = CoreManager.getClient().files().uploadBuilder(path).uploadAndFinish(in);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {

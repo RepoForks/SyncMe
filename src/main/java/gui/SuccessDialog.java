@@ -48,4 +48,8 @@ public class SuccessDialog extends JFrame {
 
         pack();
     }
+
+    public void showWindow() {
+        setVisible(true);
+    }
 }

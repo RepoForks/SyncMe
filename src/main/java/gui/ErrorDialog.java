@@ -50,4 +50,8 @@ public class ErrorDialog extends JFrame {
 
         pack();
     }
+
+    public void showWindow() {
+        setVisible(true);
+    }
 }

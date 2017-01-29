@@ -6,6 +6,7 @@ package logic;
 
 import gui.InitialWindow;
 import gui.SplashScreen;
+import tools.data.JSONParser;
 
 import java.io.IOException;
 

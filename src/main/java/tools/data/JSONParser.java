@@ -15,9 +15,14 @@ public class JSONParser {
         try {
             String text = new String(Files.readAllBytes(Paths.get(fileName)), StandardCharsets.UTF_8);
             JSONObject obj = new JSONObject(text);
+            String token = obj.getString("access_token");
+            System.out.println(token);
+            return token;
 
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        return null;
     }
 }

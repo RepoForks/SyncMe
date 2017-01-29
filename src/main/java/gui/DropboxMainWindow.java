@@ -6,6 +6,9 @@ import tools.system.FileChecker;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
+import javax.swing.event.TreeSelectionEvent;
+import javax.swing.event.TreeSelectionListener;
+import javax.swing.tree.DefaultMutableTreeNode;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -19,6 +22,7 @@ import static com.sun.org.apache.xalan.internal.utils.SecuritySupport.getResourc
 public class DropboxMainWindow extends JFrame {
 
     private ContentTree dropboxContentTree = new ContentTree();
+    private String lastSelectedNode = new String("/");
     public static String lastRootDirectory = "/";
 
     public DropboxMainWindow() {
@@ -33,8 +37,25 @@ public class DropboxMainWindow extends JFrame {
         setLayout(new BorderLayout());
 
         initializeElements();
+        initializeTreeListener();
 
         //pack();
+    }
+
+    private void initializeTreeListener() {
+        dropboxContentTree.addTreeSelectionListener(new TreeSelectionListener() {
+            public void valueChanged(TreeSelectionEvent e)
+            {
+                //Returns the last path element of the selection.
+                DefaultMutableTreeNode node = (DefaultMutableTreeNode) dropboxContentTree.getLastSelectedPathComponent();
+
+                if (node == null)
+                    //Nothing is selected.
+                    return;
+
+                System.out.println(node.getUserObject());
+            }
+        });
     }
 
     public void showWindow() {

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03702cc5-9b61-41c3-9eac-0aeb602fb05b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/gui/LoginWindow.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/gui/DropboxMainWindow.java" afterPath="$PROJECT_DIR$/src/main/java/gui/DropboxMainWindow.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/gui/InitialWindow.java" afterPath="$PROJECT_DIR$/src/main/java/gui/InitialWindow.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -48,8 +46,8 @@
       <file leaf-file-name="InitialWindow.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/gui/InitialWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="48" column="47" lean-forward="true" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
+            <state relative-caret-position="170">
+              <caret line="51" column="51" lean-forward="true" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1130,7 +1128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485719371684</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Starting with Dropbox main window">
+      <created>1485719748552</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1485719748552</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1191,9 +1196,9 @@
     <MESSAGE value="Created warning dialog" />
     <MESSAGE value="Showing warning window on initial window GD selection" />
     <MESSAGE value="Some refactoring" />
-    <MESSAGE value="Starting with Dropbox main window" />
     <MESSAGE value="Added menubar buttons images" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added menubar buttons images" />
+    <MESSAGE value="Starting with Dropbox main window" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting with Dropbox main window" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1437,8 +1442,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gui/InitialWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="48" column="47" lean-forward="true" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
+        <state relative-caret-position="170">
+          <caret line="51" column="51" lean-forward="true" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

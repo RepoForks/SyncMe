@@ -1,5 +1,7 @@
 package gui;
 
+import tools.system.FileChecker;
+
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
@@ -45,9 +47,14 @@ public class InitialWindow {
         loginToDropbox.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e)
             {
-                DropboxMainWindow dropboxMainWindow = new DropboxMainWindow();
-                dropboxMainWindow.showWindow();
-                frame.dispose();
+                if(FileChecker.fileExists("syncme.auth")) {
+                    DropboxMainWindow dropboxMainWindow = new DropboxMainWindow();
+                    dropboxMainWindow.showWindow();
+                    frame.dispose();
+                } else {
+                    WarningDialog warningDialog = new WarningDialog("Before accessing to Dropbox window you need to auth your acc with the app.");
+                    warningDialog.showWindow();
+                }
             }
         });
 

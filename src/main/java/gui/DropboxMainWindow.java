@@ -1,5 +1,6 @@
 package gui;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -13,10 +14,12 @@ public class DropboxMainWindow extends JFrame {
     public DropboxMainWindow() {
         setTitle("SyncMe: Dropbox Window");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setSize(800, 600);
         setResizable(false);
 
-        JPanel panel = new JPanel();
-        placeComponents(panel);
+        setLayout(new BorderLayout());
+
+        initializeElements();
 
         pack();
     }
@@ -26,7 +29,20 @@ public class DropboxMainWindow extends JFrame {
         setVisible(true);
     }
 
-    private void placeComponents(JPanel panel) {
+    private void initializeElements() {
+        JPanel topButtonsPanel = new JPanel(new GridLayout(1,0));
+
+        JButton userInfoButton = new JButton();
+        try {
+            Image img = ImageIO.read(getClass().getResource("res\\user-identity.png"));
+            userInfoButton.setIcon(new ImageIcon(img));
+        } catch (Exception ex) {
+            System.out.println(ex);
+        }
+
+        topButtonsPanel.add(userInfoButton);
+
+        add(topButtonsPanel, BorderLayout.NORTH);
 
     }
 }

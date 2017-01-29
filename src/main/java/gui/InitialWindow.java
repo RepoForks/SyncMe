@@ -45,6 +45,8 @@ public class InitialWindow {
         loginToDropbox.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e)
             {
+                DropboxMainWindow dropboxMainWindow = new DropboxMainWindow();
+                dropboxMainWindow.showWindow();
                 frame.dispose();
             }
         });

@@ -39,10 +39,14 @@ public class Account
         return account.getEmail();
     }
 
-    public static boolean getAccountEmailIsVerified() {
+    public static String getAccountEmailIsVerified() {
         if(account == null) initialize();
 
-        return account.getEmailVerified();
+        if(account.getEmailVerified()) {
+            return "Yes";
+        } else {
+            return "No";
+        }
     }
 
     public static String getAccountCountry() {

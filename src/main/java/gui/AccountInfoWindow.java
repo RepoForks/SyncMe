@@ -19,7 +19,7 @@ public class AccountInfoWindow extends JFrame {
     public AccountInfoWindow() {
         setTitle("SyncMe: Dropbox Account Info");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(300,300);
+        setSize(400,400);
         setResizable(false);
         getContentPane().setBackground(Color.WHITE);
 
@@ -37,7 +37,12 @@ public class AccountInfoWindow extends JFrame {
 
         add(picLabel, BorderLayout.NORTH);
 
-        JLabel errorText = new JLabel("<html><b>Account name:</b> A<br>Account name:</b> A<br>Account name:</b> A<br>Account name:</b> A<br></html>");
+        JLabel errorText = new JLabel("<html><b>Account name:</b> " + Account.getAccountName() +
+                "<br><b>Account ID:</b> " + Account.getAccountId() +
+                "<br><b>Account type:</b> " + Account.getAccountType() +
+                "<br><b>Account email:</b> " + Account.getAccountEmail() +
+                "<br><b>Is email verified?:</b> " + Account.getAccountEmailIsVerified() +
+                "<br><b>Account country:</b> " + Account.getAccountCountry() + "</html>");
         JButton okButton = new JButton("OK");
         okButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e)

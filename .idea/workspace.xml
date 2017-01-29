@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03702cc5-9b61-41c3-9eac-0aeb602fb05b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tools/system/FileChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gui/WarningDialog.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -81,18 +82,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Listing.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/Listing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="32" column="62" lean-forward="false" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="InitialWindow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/gui/InitialWindow.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,11 +96,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileChecker.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FileChecker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tools/system/FileChecker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WarningDialog.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gui/WarningDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="23" column="59" lean-forward="false" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -519,6 +518,7 @@
         <option value="$PROJECT_DIR$/src/main/java/gui/ErrorDialog.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/InitialWindow.java" />
         <option value="$PROJECT_DIR$/src/main/java/tools/system/FileChecker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gui/WarningDialog.java" />
       </list>
     </option>
   </component>
@@ -1168,7 +1168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485717003788</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added system file checker tool">
+      <created>1485717312806</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1485717312806</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1224,7 +1231,8 @@
     <MESSAGE value="Added show window method to Error/SuccessDialog" />
     <MESSAGE value="Get access token first version is working" />
     <MESSAGE value="DB and GD buttons events added" />
-    <option name="LAST_COMMIT_MESSAGE" value="DB and GD buttons events added" />
+    <MESSAGE value="Added system file checker tool" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added system file checker tool" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1464,6 +1472,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/WarningDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="23" column="59" lean-forward="false" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
           <folding />
         </state>
       </provider>

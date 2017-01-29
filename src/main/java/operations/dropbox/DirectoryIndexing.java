@@ -20,12 +20,14 @@ import java.io.IOException;
 public class DirectoryIndexing {
 
     public static void main(String args[]) throws DbxException, IOException {
+        CoreManager.updateAccessTokenFromFile();
+
         // Get current account info
-        FullAccount account = client.users().getCurrentAccount();
+        FullAccount account = CoreManager.getClient().users().getCurrentAccount();
         System.out.println(account.getName().getDisplayName());
 
         // Get files and folder metadata from Dropbox root directory
-        ListFolderResult result = client.files().listFolder("/");
+        ListFolderResult result = CoreManager.getClient().files().listFolder("");
         while (true) {
             for (Metadata metadata : result.getEntries()) {
                 System.out.println(metadata.getPathLower());
@@ -35,7 +37,7 @@ public class DirectoryIndexing {
                 break;
             }
 
-            result = client.files().listFolderContinue(result.getCursor());
+            result = CoreManager.getClient().files().listFolderContinue(result.getCursor());
         }
     }
 }

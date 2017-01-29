@@ -12,9 +12,12 @@ public class CoreManager {
     private static String ACCESS_TOKEN = "EMPTY";
     // Create Dropbox client
     private static DbxRequestConfig config = new DbxRequestConfig("dropbox/java-tutorial", "en_US");
-    private static DbxClientV2 client = new DbxClientV2(config, ACCESS_TOKEN);
+    private static DbxClientV2 client;
 
     public static DbxClientV2 getClient() {
+        if(client == null) {
+            client = new DbxClientV2(config, ACCESS_TOKEN);
+        }
         return client;
     }
 

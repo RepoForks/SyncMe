@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="03702cc5-9b61-41c3-9eac-0aeb602fb05b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/operations/dropbox/CreateFolder.java" afterPath="$PROJECT_DIR$/src/main/java/operations/dropbox/CreateFolder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/operations/dropbox/UploadFile.java" afterPath="$PROJECT_DIR$/src/main/java/operations/dropbox/UploadFile.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tools/helpers/StringHelper.java" afterPath="$PROJECT_DIR$/src/main/java/tools/helpers/StringHelper.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -73,18 +73,18 @@
       <file leaf-file-name="UploadFile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/UploadFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+            <state relative-caret-position="170">
+              <caret line="18" column="60" lean-forward="false" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateFolder.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CreateFolder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/CreateFolder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="13" column="85" lean-forward="false" selection-start-line="13" selection-start-column="85" selection-end-line="13" selection-end-column="85" />
+              <caret line="13" column="81" lean-forward="true" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="121" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringHelper.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StringHelper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/tools/helpers/StringHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="32" column="46" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="46" />
+            <state relative-caret-position="369">
+              <caret line="43" column="51" lean-forward="false" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -516,9 +516,9 @@
         <option value="$PROJECT_DIR$/src/main/java/structures/ContentTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/DropboxMainWindow.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/CreateFolderWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/operations/dropbox/CreateFolder.java" />
         <option value="$PROJECT_DIR$/src/main/java/operations/dropbox/UploadFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/tools/helpers/StringHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/operations/dropbox/CreateFolder.java" />
       </list>
     </option>
   </component>
@@ -1161,13 +1161,6 @@
       <option name="presentableId" value="Default" />
       <updated>1485615542522</updated>
     </task>
-    <task id="LOCAL-00001" summary="Added Dropbox SDK">
-      <created>1485703680950</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1485703680950</updated>
-    </task>
     <task id="LOCAL-00002" summary="Some operations testing">
       <created>1485707450472</created>
       <option name="number" value="00002" />
@@ -1504,7 +1497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485733210765</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Fixing malformed URL when going backward and trying to create folder">
+      <created>1485733778462</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1485733778472</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1546,7 +1546,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added ContentTree auxiliar structure" />
     <MESSAGE value="Added Upload File operation" />
     <MESSAGE value="First Dropbox CoreManager version" />
     <MESSAGE value="Fix upload file op" />
@@ -1571,7 +1570,8 @@
     <MESSAGE value="Starting with Create Folder window" />
     <MESSAGE value="Added CreateFolder operation" />
     <MESSAGE value="Create folder window finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create folder window finished" />
+    <MESSAGE value="Fixing malformed URL when going backward and trying to create folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing malformed URL when going backward and trying to create folder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1848,16 +1848,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/DropboxMainWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="112" column="18" lean-forward="false" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gui/CreateFolderWindow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -1878,29 +1868,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tools/helpers/StringHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/CreateFolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="81" lean-forward="true" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="121" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/DropboxMainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
-          <caret line="32" column="46" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="46" />
-          <folding />
+          <caret line="112" column="18" lean-forward="false" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/UploadFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        <state relative-caret-position="170">
+          <caret line="18" column="60" lean-forward="false" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/CreateFolder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/helpers/StringHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="85" lean-forward="false" selection-start-line="13" selection-start-column="85" selection-end-line="13" selection-end-column="85" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="369">
+          <caret line="43" column="51" lean-forward="false" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>

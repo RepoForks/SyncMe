@@ -38,4 +38,9 @@ public class StringHelper {
         }
         return str;
     }
+
+    public static String getLastWord(String str) {
+        String[] splittedStr = str.split("/");
+        return splittedStr[splittedStr.length - 1];
+    }
 }

@@ -2,6 +2,7 @@ package gui;
 
 import operations.dropbox.Indexing;
 import structures.ContentTree;
+import tools.helpers.StringHelper;
 import tools.system.FileChecker;
 
 import javax.imageio.ImageIO;
@@ -80,7 +81,10 @@ public class DropboxMainWindow extends JFrame {
         backButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e)
             {
-                //
+                if(StringHelper.countMatches(lastRootDirectory, "/") == 1) {
+                    lastRootDirectory = "/";
+                    dropboxContentTree.updateContentTree(Indexing.getContentFromFolder(""));
+                }
             }
         });
 

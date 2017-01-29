@@ -29,4 +29,13 @@ public class StringHelper {
             return false;
         }
     }
+
+    public static String fixSlashAtEndOfString(String str) {
+        StringBuilder sb = new StringBuilder(str);
+        if(sb.charAt(sb.length() - 1) == '/') {
+            sb.deleteCharAt(sb.length() - 1);
+            return sb.toString();
+        }
+        return str;
+    }
 }

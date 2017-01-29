@@ -18,13 +18,8 @@ import java.io.InputStream;
 import java.io.IOException;
 
 public class DirectoryIndexing {
-    private static final String ACCESS_TOKEN = "Cgn8g1z7JVoAAAAAAAAqb62RrSIaVp4YG_o7qzE-TU6xt1zJ-p0IdCPQCq5Cfnub";
 
     public static void main(String args[]) throws DbxException, IOException {
-        // Create Dropbox client
-        DbxRequestConfig config = new DbxRequestConfig("dropbox/java-tutorial", "en_US");
-        DbxClientV2 client = new DbxClientV2(config, ACCESS_TOKEN);
-
         // Get current account info
         FullAccount account = client.users().getCurrentAccount();
         System.out.println(account.getName().getDisplayName());
@@ -41,12 +36,6 @@ public class DirectoryIndexing {
             }
 
             result = client.files().listFolderContinue(result.getCursor());
-        }
-
-        // Upload "test.txt" to Dropbox
-        try (InputStream in = new FileInputStream("C:\\Users\\QiCanarias23\\IdeaProjects\\syncme\\res\\test.txt")) {
-            FileMetadata metadata = client.files().uploadBuilder("/test.txt")
-                    .uploadAndFinish(in);
         }
     }
 }

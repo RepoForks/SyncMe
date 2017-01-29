@@ -2,6 +2,7 @@ package operations.dropbox;
 
 import com.dropbox.core.DbxRequestConfig;
 import com.dropbox.core.v2.DbxClientV2;
+import tools.data.JSONParser;
 import tools.system.FileChecker;
 
 /**
@@ -27,7 +28,7 @@ public class CoreManager {
 
     public static void updateAccessTokenFromFile() {
         if(FileChecker.fileExists("syncme.auth")) {
-
+            setAccessToken(JSONParser.parseDropboxTokenFromFile("syncme.auth"));
         }
     }
 }

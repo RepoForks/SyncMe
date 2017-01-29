@@ -13,7 +13,7 @@ import java.io.IOException;
  * Created by @AdrianBZG (www.adrianbazaga.com) on 29/01/2017.
  */
 public class WarningDialog extends JFrame {
-    public WarningDialog() {
+    public WarningDialog(String text) {
         setTitle("A warning occurred");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
@@ -30,7 +30,7 @@ public class WarningDialog extends JFrame {
 
         add(picLabel, BorderLayout.CENTER);
 
-        JLabel errorText = new JLabel("Some error occurred, please try again");
+        JLabel errorText = new JLabel(text);
         JButton okButton = new JButton("OK");
         okButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e)

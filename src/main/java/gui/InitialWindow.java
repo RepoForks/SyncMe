@@ -3,6 +3,8 @@ package gui;
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -36,7 +38,7 @@ public class InitialWindow {
 
         JPanel buttonsPanel = new JPanel (new GridLayout(0,1));
 
-        ImageIcon windowIcon = new ImageIcon("C:\\Users\\QiCanarias23\\IdeaProjects\\syncme\\res\\syncme.png");
+        ImageIcon windowIcon = new ImageIcon("res\\syncme.png");
 
         JButton loginToDropbox = new JButton("Login to Dropbox");
         buttonsPanel.add(loginToDropbox);
@@ -46,6 +48,15 @@ public class InitialWindow {
 
         JButton getAccessTokenButton = new JButton("Get access token");
         buttonsPanel.add(getAccessTokenButton);
+
+        getAccessTokenButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e)
+            {
+                DropboxAuthorizationWindow dropboxAuthWindow = new DropboxAuthorizationWindow();
+                dropboxAuthWindow.showWindow();
+                frame.dispose();
+            }
+        });
 
         frame.add(buttonsPanel, BorderLayout.CENTER);
 

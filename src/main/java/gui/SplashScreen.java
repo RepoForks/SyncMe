@@ -39,9 +39,9 @@ public class SplashScreen {
         panel.setLayout(new BorderLayout());
 
         BufferedImage myPicture = null;
-        ImageIcon windowIcon = new ImageIcon("C:\\Users\\QiCanarias23\\IdeaProjects\\syncme\\res\\syncme.png");
+        ImageIcon windowIcon = new ImageIcon("res\\syncme.png");
         try {
-            myPicture = ImageIO.read(new File("C:\\Users\\QiCanarias23\\IdeaProjects\\syncme\\res\\syncme.png"));
+            myPicture = ImageIO.read(new File("res\\syncme.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }

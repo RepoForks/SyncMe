@@ -59,4 +59,9 @@ public class CreateFolderWindow extends JFrame {
         add(folderInputPart, BorderLayout.NORTH);
         add(folderInputBottomPart, BorderLayout.SOUTH);
     }
+
+    public void showWindow() {
+        setLocationRelativeTo(null);
+        setVisible(true);
+    }
 }

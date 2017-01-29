@@ -17,7 +17,7 @@ public class UploadFile {
     public void uploadFile(String pathToFile, String pathToUpload) {
         // Upload to Dropbox
         try (InputStream in = new FileInputStream(pathToFile)) {
-            FileMetadata metadata = CoreManager.getClient().files().uploadBuilder(StringHelper.fixSlashAtEndOfString(pathToUpload)).uploadAndFinish(in);
+            FileMetadata metadata = CoreManager.getClient().files().uploadBuilder(pathToUpload).uploadAndFinish(in);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {

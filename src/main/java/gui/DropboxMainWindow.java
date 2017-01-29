@@ -110,7 +110,8 @@ public class DropboxMainWindow extends JFrame {
         createFolderButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e)
             {
-                //
+                CreateFolderWindow createFolderWindow = new CreateFolderWindow(lastRootDirectory);
+                createFolderWindow.showWindow();
             }
         });
         JButton configureButton = new JButton();

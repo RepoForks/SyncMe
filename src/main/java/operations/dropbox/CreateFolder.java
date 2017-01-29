@@ -15,6 +15,7 @@ public class CreateFolder {
         } catch (CreateFolderErrorException err) {
             if (err.errorValue.isPath() && err.errorValue.getPathValue().isConflict()) {
                 WarningDialog warningDialog = new WarningDialog("Something already exists at the path.");
+                warningDialog.showWindow();
                 return false;
             } else {
                 return false;

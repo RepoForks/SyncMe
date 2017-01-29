@@ -1,5 +1,6 @@
 package gui;
 
+import operations.dropbox.CreateFolder;
 import operations.dropbox.Token;
 
 import javax.swing.*;
@@ -37,6 +38,19 @@ public class CreateFolderWindow extends JFrame {
             public void actionPerformed(ActionEvent e)
             {
                 String folderName = folderNameTextField.getText();
+                if(folderName != null) {
+                    if(CreateFolder.createFolder(currentPath, folderName)) {
+                        SuccessDialog successDialog = new SuccessDialog();
+                        successDialog.showWindow();
+                        dispose();
+                    } else {
+                        ErrorDialog errorDialog = new ErrorDialog();
+                        errorDialog.showWindow();
+                    }
+                } else {
+                    WarningDialog warningDialog = new WarningDialog("Folder name cannot be empty");
+                    warningDialog.showWindow();
+                }
                 //
             }
         });

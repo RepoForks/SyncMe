@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03702cc5-9b61-41c3-9eac-0aeb602fb05b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gui/CreateFolderWindow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/operations/dropbox/CreateFolder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,11 +45,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateFolderWindow.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CreateFolderWindow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/gui/CreateFolderWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="36" column="54" lean-forward="false" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
+            <state relative-caret-position="187">
+              <caret line="38" column="38" lean-forward="false" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateFolder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/CreateFolder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -473,6 +485,7 @@
         <option value="$PROJECT_DIR$/src/main/java/tools/helpers/StringHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/DropboxMainWindow.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/CreateFolderWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/operations/dropbox/CreateFolder.java" />
       </list>
     </option>
   </component>
@@ -1437,7 +1450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485732258251</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Starting with Create Folder window">
+      <created>1485732750112</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1485732750112</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1479,7 +1499,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Starting with Dropbox main window" />
     <MESSAGE value="Checking if the user is auth before opening Dropbox window" />
     <MESSAGE value="Initial dropbox window workaround" />
     <MESSAGE value="Added ContentTree auxiliar structure" />
@@ -1504,7 +1523,8 @@
     <MESSAGE value="Fixing going traversing forward with ANY depth level" />
     <MESSAGE value="Traversing backwards with ANY depth level is working" />
     <MESSAGE value="Added create folder button event" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added create folder button event" />
+    <MESSAGE value="Starting with Create Folder window" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting with Create Folder window" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1824,8 +1844,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gui/CreateFolderWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="36" column="54" lean-forward="false" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
+        <state relative-caret-position="187">
+          <caret line="38" column="38" lean-forward="false" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/CreateFolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

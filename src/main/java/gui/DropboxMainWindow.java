@@ -84,6 +84,14 @@ public class DropboxMainWindow extends JFrame {
                 if(StringHelper.countMatches(lastRootDirectory, "/") == 1) {
                     lastRootDirectory = "/";
                     dropboxContentTree.updateContentTree(Indexing.getContentFromFolder(""));
+                } else {
+                    String[] splittedPath = lastRootDirectory.split("/");
+                    String newPath = "/";
+                    for(int i = 0; i < splittedPath.length - 2; i++) {
+                        newPath += splittedPath[i] + "/";
+                    }
+                    newPath += splittedPath[splittedPath.length - 3];
+                    System.out.println(newPath);
                 }
             }
         });
@@ -92,7 +100,7 @@ public class DropboxMainWindow extends JFrame {
         forwardButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e)
             {
-                lastRootDirectory = lastSelectedNode;
+                lastRootDirectory = lastSelectedNode + "/";
                 dropboxContentTree.updateContentTree(Indexing.getContentFromFolder(lastSelectedNode));
             }
         });

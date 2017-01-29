@@ -4,7 +4,6 @@
     <list default="true" id="03702cc5-9b61-41c3-9eac-0aeb602fb05b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/gui/DropboxMainWindow.java" afterPath="$PROJECT_DIR$/src/main/java/gui/DropboxMainWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tools/helpers/StringHelper.java" afterPath="$PROJECT_DIR$/src/main/java/tools/helpers/StringHelper.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -37,8 +36,8 @@
       <file leaf-file-name="DropboxMainWindow.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/gui/DropboxMainWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="85" column="89" lean-forward="false" selection-start-line="85" selection-start-column="89" selection-end-line="85" selection-end-column="89" />
+            <state relative-caret-position="80">
+              <caret line="87" column="70" lean-forward="false" selection-start-line="87" selection-start-column="70" selection-end-line="87" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1476,7 +1475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485730673937</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Backwards traversing working at first depth level">
+      <created>1485730964345</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1485730964345</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1518,7 +1524,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created warning dialog" />
     <MESSAGE value="Showing warning window on initial window GD selection" />
     <MESSAGE value="Some refactoring" />
     <MESSAGE value="Added menubar buttons images" />
@@ -1543,7 +1548,8 @@
     <MESSAGE value="Adding tree selection event to Dropbox content tree" />
     <MESSAGE value="Traversing inside a folder is working" />
     <MESSAGE value="Added StringHelper tool" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added StringHelper tool" />
+    <MESSAGE value="Backwards traversing working at first depth level" />
+    <option name="LAST_COMMIT_MESSAGE" value="Backwards traversing working at first depth level" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1853,8 +1859,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gui/DropboxMainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="85" column="89" lean-forward="false" selection-start-line="85" selection-start-column="89" selection-end-line="85" selection-end-column="89" />
+        <state relative-caret-position="80">
+          <caret line="87" column="70" lean-forward="false" selection-start-line="87" selection-start-column="70" selection-end-line="87" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -53,8 +53,8 @@ public class InitialWindow {
         loginToGoogleDrive.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e)
             {
-                ErrorDialog errorDialog = new ErrorDialog();
-                errorDialog.showWindow();
+                WarningDialog warningDialog = new WarningDialog("This functionality is not available yet");
+                warningDialog.showWindow();
             }
         });
         buttonsPanel.add(loginToGoogleDrive);

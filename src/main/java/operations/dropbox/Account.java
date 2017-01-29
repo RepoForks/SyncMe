@@ -25,6 +25,14 @@ public class Account
         Logger.getLogger("").setLevel(Level.WARNING);
 
         String argAuthFile = "syncme.auth";
+        // Get current account info
+        FullAccount account = null;
+        try {
+            account = CoreManager.getClient().users().getCurrentAccount();
+        } catch (DbxException e) {
+            e.printStackTrace();
+        }
+        System.out.println(account.getName().getDisplayName());
 
         // Read auth info file.
         DbxAuthInfo authInfo;

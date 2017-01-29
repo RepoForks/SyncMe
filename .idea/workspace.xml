@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03702cc5-9b61-41c3-9eac-0aeb602fb05b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gui/DropboxAuthorizationWindow.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/gui/InitialWindow.java" afterPath="$PROJECT_DIR$/src/main/java/gui/InitialWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/gui/SplashScreen.java" afterPath="$PROJECT_DIR$/src/main/java/gui/SplashScreen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/gui/DropboxAuthorizationWindow.java" afterPath="$PROJECT_DIR$/src/main/java/gui/DropboxAuthorizationWindow.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/operations/dropbox/GetAccessToken.java" afterPath="$PROJECT_DIR$/src/main/java/operations/dropbox/GetAccessToken.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,11 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GetAccessToken.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GetAccessToken.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/GetAccessToken.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="81" lean-forward="true" selection-start-line="17" selection-start-column="81" selection-end-line="17" selection-end-column="81" />
+            <state relative-caret-position="80">
+              <caret line="64" column="44" lean-forward="false" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DropboxAuthorizationWindow.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DropboxAuthorizationWindow.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/gui/DropboxAuthorizationWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="77" column="47" lean-forward="true" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
+            <state relative-caret-position="-19">
+              <caret line="87" column="17" lean-forward="true" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -518,8 +516,8 @@
         <option value="$PROJECT_DIR$/src/main/java/logic/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/SplashScreen.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/InitialWindow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gui/DropboxAuthorizationWindow.java" />
         <option value="$PROJECT_DIR$/src/main/java/operations/dropbox/GetAccessToken.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gui/DropboxAuthorizationWindow.java" />
       </list>
     </option>
   </component>
@@ -1072,7 +1070,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485710652236</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Dropbox GetAccessToken operation first version">
+      <created>1485713014929</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1485713014929</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1118,7 +1123,8 @@
     <MESSAGE value="Some operations testing" />
     <MESSAGE value="Initial window prototype" />
     <MESSAGE value="Created splash screen transition to initial window" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created splash screen transition to initial window" />
+    <MESSAGE value="Dropbox GetAccessToken operation first version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dropbox GetAccessToken operation first version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1294,20 +1300,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/DropboxAuthorizationWindow.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/GetAccessToken.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="77" column="47" lean-forward="true" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
+        <state relative-caret-position="80">
+          <caret line="64" column="44" lean-forward="false" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/GetAccessToken.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/DropboxAuthorizationWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="81" lean-forward="true" selection-start-line="17" selection-start-column="81" selection-end-line="17" selection-end-column="81" />
+        <state relative-caret-position="-19">
+          <caret line="87" column="17" lean-forward="true" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

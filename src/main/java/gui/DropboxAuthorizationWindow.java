@@ -1,5 +1,7 @@
 package gui;
 
+import operations.dropbox.GetAccessToken;
+
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
@@ -49,12 +51,10 @@ public class DropboxAuthorizationWindow {
 
         frame.add(picLabel, BorderLayout.CENTER);
 
-        String authorizeUrl = "a";
-
         JPanel bottomPart = new JPanel(new BorderLayout());
         bottomPart.setBackground(Color.WHITE);
         JLabel infoText = new JLabel("<html><br><center><p style=\"color: #000000; background-color: #ffffff\">In order to use SyncMe with Dropbox you need to authorize the app, follow the next steps:<br>" +
-                                          "1. Go to " + authorizeUrl + "<br>" +
+                                          "1. Go to " + GetAccessToken.getAuthUrl() + "<br>" +
                                           "2. Click \"Allow\" (you have to log in first).<br>" +
                                           "3. Copy the authorization code.<br>" +
                                           "</p></center></html>");
@@ -71,8 +71,21 @@ public class DropboxAuthorizationWindow {
         acceptCodeButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e)
             {
-                String test = authCodeTextField.getText();
-                System.out.println(test);
+                String authCode = authCodeTextField.getText();
+                if(GetAccessToken.tryAuthorization(authCode)) {
+                    try {
+                        if(GetAccessToken.saveAuthInfoToFile()) {
+                            showSuccessDialog();
+                        } else {
+                            showErrorDialog();
+                        }
+                    } catch (IOException e1) {
+                        e1.printStackTrace();
+                        showErrorDialog();
+                    }
+                } else {
+                    showErrorDialog();
+                }
             }
         });
         typeAuthCodePart.add(acceptCodeButton);
@@ -82,5 +95,13 @@ public class DropboxAuthorizationWindow {
         frame.add(bottomPart, BorderLayout.SOUTH);
 
         frame.setIconImage(windowIcon.getImage());
+    }
+
+    public void showErrorDialog() {
+
+    }
+
+    public void showSuccessDialog() {
+
     }
 }

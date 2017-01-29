@@ -42,7 +42,7 @@ public class GetAccessToken {
 
     public static boolean tryAuthorization(String code) {
         if (code == null) {
-            //error
+            return false;
         }
 
         code = code.trim();

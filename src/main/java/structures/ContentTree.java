@@ -41,6 +41,7 @@ public class ContentTree extends JTree {
             DefaultMutableTreeNode root = (DefaultMutableTreeNode) model.getRoot();
             model.insertNodeInto(new DefaultMutableTreeNode("[D]" + name), root, root.getChildCount());
         }
+        expandAllNodes(0);
     }
 
     /**
@@ -66,5 +67,11 @@ public class ContentTree extends JTree {
 
     public void updateContentTree(ListFolderResult nodes) {
 
+    }
+
+    private void expandAllNodes(int startingIndex){
+        for(int i=startingIndex;i<this.getRowCount();++i){
+            this.expandRow(i);
+        }
     }
 }

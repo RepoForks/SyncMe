@@ -1,5 +1,6 @@
 package gui;
 
+import structures.ContentTree;
 import tools.system.FileChecker;
 
 import javax.imageio.ImageIO;
@@ -15,6 +16,8 @@ import static com.sun.org.apache.xalan.internal.utils.SecuritySupport.getResourc
  * Created by @AdrianBZG (www.adrianbazaga.com) on 29/01/2017.
  */
 public class DropboxMainWindow extends JFrame {
+
+    private ContentTree dropboxContentTree = new ContentTree();
 
     public DropboxMainWindow() {
         setTitle("SyncMe: Dropbox Window");
@@ -81,9 +84,16 @@ public class DropboxMainWindow extends JFrame {
 
         add(topButtonsPanel, BorderLayout.NORTH);
 
-        add(new JScrollPane(new JLabel("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")), BorderLayout.CENTER);
+        add(new JScrollPane(dropboxContentTree), BorderLayout.CENTER);
 
         add(new JLabel("SyncMe v2 - Copyright 2017 Adrián Rodríguez Bazaga"), BorderLayout.SOUTH);
+
+        dropboxContentTree.addChild("Test", false);
+        dropboxContentTree.addChild("Test2", false);
+        dropboxContentTree.addChild("Test3", false);
+        dropboxContentTree.addChild("Test4", true);
+        dropboxContentTree.addChild("Test5", false);
+        dropboxContentTree.addChild("Test6", true);
 
     }
 }

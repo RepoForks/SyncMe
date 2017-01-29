@@ -77,6 +77,13 @@ public class DropboxMainWindow extends JFrame {
             }
         });
         JButton backButton = new JButton();
+        backButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e)
+            {
+                //
+            }
+        });
+
         JButton forwardButton = new JButton();
         forwardButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e)

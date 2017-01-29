@@ -12,7 +12,7 @@ import java.io.IOException;
 
 public class GetAccessToken {
 
-    public static String argAppInfoFile = "res\\syncme.app";
+    public static String argAppInfoFile = "syncme.app";
     public static String argAuthFileOutput = "syncme.auth";
     public static String authorizeUrl = null;
     public static DbxAppInfo appInfo;                         // Read app info file (contains app key and app secret)

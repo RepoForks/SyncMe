@@ -24,7 +24,7 @@ public class GetAccountInfo
         // Only display important log messages.
         Logger.getLogger("").setLevel(Level.WARNING);
 
-        String argAuthFile = "C:\\Users\\QiCanarias23\\IdeaProjects\\syncme\\syncme.auth";
+        String argAuthFile = "syncme.auth";
 
         // Read auth info file.
         DbxAuthInfo authInfo;

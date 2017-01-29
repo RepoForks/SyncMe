@@ -1,5 +1,6 @@
 package gui;
 
+import operations.dropbox.Indexing;
 import structures.ContentTree;
 import tools.system.FileChecker;
 
@@ -18,12 +19,16 @@ import static com.sun.org.apache.xalan.internal.utils.SecuritySupport.getResourc
 public class DropboxMainWindow extends JFrame {
 
     private ContentTree dropboxContentTree = new ContentTree();
+    public static String lastRootDirectory = "/";
 
     public DropboxMainWindow() {
         setTitle("SyncMe: Dropbox Window");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(1024, 800);
         setResizable(false);
+
+        ImageIcon windowIcon = new ImageIcon("res\\syncme.png");
+        setIconImage(windowIcon.getImage());
 
         setLayout(new BorderLayout());
 
@@ -88,12 +93,8 @@ public class DropboxMainWindow extends JFrame {
 
         add(new JLabel("SyncMe v2 - Copyright 2017 Adrián Rodríguez Bazaga"), BorderLayout.SOUTH);
 
-        dropboxContentTree.addChild("Test", false);
-        dropboxContentTree.addChild("Test2", false);
-        dropboxContentTree.addChild("Test3", false);
-        dropboxContentTree.addChild("Test4", true);
-        dropboxContentTree.addChild("Test5", false);
-        dropboxContentTree.addChild("Test6", true);
-
+        lastRootDirectory = "/Test";
+        dropboxContentTree.updateContentTree(Indexing.getContentFromFolder("/"));
+        //dropboxContentTree.updateContentTree(Indexing.getAllContentRecursivelyFromRoot());
     }
 }

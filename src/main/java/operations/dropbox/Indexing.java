@@ -34,4 +34,17 @@ public class Indexing {
 
         return null;
     }
+
+    public static List<Metadata> getContentFromFolder(String path) {
+        try {
+            System.out.println(path);
+            ListFolderResult result = CoreManager.getClient().files().listFolder(path);
+            List<Metadata> entries = result.getEntries();
+            return entries;
+        } catch (DbxException exception) {
+            System.exit(1);
+        }
+
+        return null;
+    }
 }

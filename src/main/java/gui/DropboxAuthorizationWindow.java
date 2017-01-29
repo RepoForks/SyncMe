@@ -83,6 +83,8 @@ public class DropboxAuthorizationWindow {
                     try {
                         if(Token.saveAuthInfoToFile()) {
                             showSuccessDialog();
+                            InitialWindow initialWindow = new InitialWindow();
+                            initialWindow.showWindow();
                         } else {
                             showErrorDialog();
                         }

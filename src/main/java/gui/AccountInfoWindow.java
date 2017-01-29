@@ -28,12 +28,19 @@ public class AccountInfoWindow extends JFrame {
 
         BufferedImage myPicture = null;
         try {
-            myPicture = ImageIO.read(new URL(Account.getProfilePhotoUrl()));
+            if(Account.getProfilePhotoUrl() != null) {
+                myPicture = ImageIO.read(new URL(Account.getProfilePhotoUrl()));
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        JLabel picLabel = new JLabel(new ImageIcon(myPicture));
+        JLabel picLabel;
+        if(myPicture != null) {
+            picLabel = new JLabel(new ImageIcon(myPicture));
+        } else {
+            picLabel = new JLabel(new ImageIcon("NO PHOTO"));
+        }
 
         add(picLabel, BorderLayout.NORTH);
 

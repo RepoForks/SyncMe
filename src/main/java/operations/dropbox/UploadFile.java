@@ -1,6 +1,8 @@
 package operations.dropbox;
 
+import com.dropbox.core.DbxException;
 import com.dropbox.core.v2.files.FileMetadata;
+import com.dropbox.core.v2.files.UploadErrorException;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -18,6 +20,10 @@ public class UploadFile {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
+            e.printStackTrace();
+        } catch (UploadErrorException e) {
+            e.printStackTrace();
+        } catch (DbxException e) {
             e.printStackTrace();
         }
     }

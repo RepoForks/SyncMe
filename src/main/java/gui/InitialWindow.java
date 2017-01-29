@@ -1,5 +1,6 @@
 package gui;
 
+import operations.dropbox.CoreManager;
 import tools.system.FileChecker;
 
 import javax.imageio.ImageIO;
@@ -48,6 +49,7 @@ public class InitialWindow {
             public void actionPerformed(ActionEvent e)
             {
                 if(FileChecker.fileExists("syncme.auth")) {
+                    CoreManager.updateAccessTokenFromFile();
                     DropboxMainWindow dropboxMainWindow = new DropboxMainWindow();
                     dropboxMainWindow.showWindow();
                     frame.dispose();

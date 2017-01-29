@@ -1,5 +1,7 @@
 package gui;
 
+import tools.system.FileChecker;
+
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
@@ -36,6 +38,13 @@ public class DropboxMainWindow extends JFrame {
         JPanel topButtonsPanel = new JPanel(new GridLayout(1,0));
 
         JButton userInfoButton = new JButton();
+        userInfoButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e)
+            {
+                AccountInfoWindow accInfoWindow = new AccountInfoWindow();
+                accInfoWindow.showWindow();
+            }
+        });
         JButton downButton = new JButton();
         JButton upButton = new JButton();
         JButton deleteButton = new JButton();

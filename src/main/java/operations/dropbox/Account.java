@@ -56,4 +56,10 @@ public class Account
 
         return account.getAccountId();
     }
+
+    public static String getProfilePhotoUrl() {
+        if(account == null) initialize();
+
+        return account.getProfilePhotoUrl();
+    }
 }

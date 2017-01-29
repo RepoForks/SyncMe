@@ -107,6 +107,12 @@ public class DropboxMainWindow extends JFrame {
         });
         JButton deleteButton = new JButton();
         JButton createFolderButton = new JButton();
+        createFolderButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e)
+            {
+                //
+            }
+        });
         JButton configureButton = new JButton();
         try {
             Image img = ImageIO.read(new File("res\\user-identity.png"));

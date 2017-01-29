@@ -14,7 +14,7 @@ import java.io.IOException;
  */
 public class SuccessDialog extends JFrame {
     public SuccessDialog() {
-        setTitle("An error occured");
+        setTitle("Operation completed succesfully");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
         getContentPane().setBackground(Color.WHITE);
@@ -50,6 +50,7 @@ public class SuccessDialog extends JFrame {
     }
 
     public void showWindow() {
+        setLocationRelativeTo(null);
         setVisible(true);
     }
 }

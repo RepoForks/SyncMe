@@ -17,14 +17,21 @@ public class GetAccessToken {
     public static String authorizeUrl = null;
     public static DbxAppInfo appInfo;                         // Read app info file (contains app key and app secret)
     public static DbxRequestConfig requestConfig = new DbxRequestConfig("authorize");             // Dropbox API authorization process
-    public static DbxWebAuth webAuth = new DbxWebAuth(requestConfig, appInfo);
+    public static DbxWebAuth webAuth;
     public static DbxWebAuth.Request webAuthRequest = DbxWebAuth.newRequestBuilder().withNoRedirect().build();
     public static DbxAuthFinish authFinish;
+    public static boolean initialized = false;
 
-    public static boolean initialize() {
+    private static boolean initialize() {
         try {
-            appInfo = DbxAppInfo.Reader.readFromFile(argAppInfoFile);
-            return true;
+            if(!initialized) {
+                appInfo = DbxAppInfo.Reader.readFromFile(argAppInfoFile);
+                webAuth = new DbxWebAuth(requestConfig, appInfo);
+                initialized = true;
+                return initialized;
+            } else {
+                return initialized;
+            }
         } catch (JsonReader.FileLoadException e) {
             e.printStackTrace();
             return false;
@@ -32,6 +39,8 @@ public class GetAccessToken {
     }
 
     public static String getAuthUrl() {
+        initialize();
+
         if(authorizeUrl != null) {
             return authorizeUrl;
         } else {
@@ -41,6 +50,8 @@ public class GetAccessToken {
     }
 
     public static boolean tryAuthorization(String code) {
+        initialize();
+
         if (code == null) {
             return false;
         }
@@ -57,12 +68,16 @@ public class GetAccessToken {
     }
 
     public static void showAuthInformation() {
+        initialize();
+
         System.out.println("Authorization complete.");
         System.out.println("- User ID: " + authFinish.getUserId());
         System.out.println("- Access Token: " + authFinish.getAccessToken());
     }
 
     public static boolean saveAuthInfoToFile() throws IOException {
+        initialize();
+
         // Save auth information to output file.
         DbxAuthInfo authInfo = new DbxAuthInfo(authFinish.getAccessToken(), appInfo.getHost());
         File output = new File(argAuthFileOutput);

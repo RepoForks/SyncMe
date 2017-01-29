@@ -52,6 +52,7 @@ public class ErrorDialog extends JFrame {
     }
 
     public void showWindow() {
+        setLocationRelativeTo(null);
         setVisible(true);
     }
 }

@@ -54,18 +54,25 @@ public class DropboxAuthorizationWindow {
         JPanel bottomPart = new JPanel(new BorderLayout());
         bottomPart.setBackground(Color.WHITE);
         JLabel infoText = new JLabel("<html><br><center><p style=\"color: #000000; background-color: #ffffff\">In order to use SyncMe with Dropbox you need to authorize the app, follow the next steps:<br>" +
-                                          "1. Go to " + GetAccessToken.getAuthUrl() + "<br>" +
+                                          "1. Go to the auth URL (read below) <br>" +
                                           "2. Click \"Allow\" (you have to log in first).<br>" +
                                           "3. Copy the authorization code.<br>" +
                                           "</p></center></html>");
         bottomPart.add(infoText, BorderLayout.CENTER);
 
-        JPanel typeAuthCodePart = new JPanel(new GridLayout(1,3));
+        JPanel typeAuthCodePart = new JPanel(new BorderLayout());
+        JPanel typeAuthCodePartBottom = new JPanel(new GridLayout(1,3));
         typeAuthCodePart.setBackground(Color.WHITE);
-        typeAuthCodePart.add(new JLabel("Enter the authorization code here: "));
+        typeAuthCodePartBottom.setBackground(Color.WHITE);
+
+        JTextField f = new JTextField("Auth URL: " + GetAccessToken.getAuthUrl());
+        f.setEditable(false);
+        typeAuthCodePart.add(f, BorderLayout.CENTER);
+
+        typeAuthCodePartBottom.add(new JLabel("Enter the authorization code here: "));
 
         JTextField authCodeTextField = new JTextField();
-        typeAuthCodePart.add(authCodeTextField);
+        typeAuthCodePartBottom.add(authCodeTextField);
 
         JButton acceptCodeButton = new JButton("CHECK");
         acceptCodeButton.addActionListener(new ActionListener() {
@@ -88,8 +95,10 @@ public class DropboxAuthorizationWindow {
                 }
             }
         });
-        typeAuthCodePart.add(acceptCodeButton);
+        typeAuthCodePartBottom.add(acceptCodeButton);
 
+
+        typeAuthCodePart.add(typeAuthCodePartBottom, BorderLayout.SOUTH);
         bottomPart.add(typeAuthCodePart, BorderLayout.SOUTH);
 
         frame.add(bottomPart, BorderLayout.SOUTH);
@@ -98,10 +107,13 @@ public class DropboxAuthorizationWindow {
     }
 
     public void showErrorDialog() {
-
+        ErrorDialog errorDialog = new ErrorDialog();
+        errorDialog.showWindow();
     }
 
     public void showSuccessDialog() {
-
+        frame.dispose();
+        SuccessDialog successDialog = new SuccessDialog();
+        successDialog.showWindow();
     }
 }

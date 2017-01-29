@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03702cc5-9b61-41c3-9eac-0aeb602fb05b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gui/DropboxMainWindow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/application-exit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/configure.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/edit-delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/folder-blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/go-down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/go-up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/trash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/user-identity.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -728,6 +735,7 @@
       <recent name="gui" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\QiCanarias23\IdeaProjects\syncme\res" />
       <recent name="C:\Users\QiCanarias23\IdeaProjects\syncme" />
       <recent name="C:\Users\QiCanarias23\IdeaProjects\syncme\src\main\java" />
       <recent name="C:\Users\QiCanarias23\IdeaProjects\syncme\src\main\operations\dropbox" />
@@ -1203,7 +1211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485718833181</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Starting with Dropbox main window">
+      <created>1485719256032</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1485719256032</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1264,7 +1279,8 @@
     <MESSAGE value="Created warning dialog" />
     <MESSAGE value="Showing warning window on initial window GD selection" />
     <MESSAGE value="Some refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some refactoring" />
+    <MESSAGE value="Starting with Dropbox main window" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting with Dropbox main window" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

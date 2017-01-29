@@ -36,8 +36,8 @@
       <file leaf-file-name="DropboxMainWindow.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/gui/DropboxMainWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="55" column="57" lean-forward="false" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
+            <state relative-caret-position="80">
+              <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1422,7 +1422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485729332462</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Adding tree selection event to Dropbox content tree">
+      <created>1485729603919</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1485729603919</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1464,7 +1471,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="DB and GD buttons events added" />
     <MESSAGE value="Added system file checker tool" />
     <MESSAGE value="Added warning image" />
     <MESSAGE value="Created warning dialog" />
@@ -1489,7 +1495,8 @@
     <MESSAGE value="Dropbox account info window is working" />
     <MESSAGE value="Playing with the content tree on main Dropbox window" />
     <MESSAGE value="Traversing content tree is working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Traversing content tree is working" />
+    <MESSAGE value="Adding tree selection event to Dropbox content tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding tree selection event to Dropbox content tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1788,8 +1795,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gui/DropboxMainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="55" column="57" lean-forward="false" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
+        <state relative-caret-position="80">
+          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

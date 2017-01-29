@@ -53,7 +53,9 @@ public class DropboxMainWindow extends JFrame {
                     //Nothing is selected.
                     return;
 
-                System.out.println(node.getUserObject());
+                String newPath = node.getUserObject().toString().split("\\[D\\]")[1];
+                System.out.println(lastRootDirectory + newPath);
+                lastSelectedNode = lastRootDirectory + newPath;
             }
         });
     }
@@ -74,8 +76,15 @@ public class DropboxMainWindow extends JFrame {
                 accInfoWindow.showWindow();
             }
         });
-        JButton downButton = new JButton();
-        JButton upButton = new JButton();
+        JButton backButton = new JButton();
+        JButton forwardButton = new JButton();
+        forwardButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e)
+            {
+                lastRootDirectory = lastSelectedNode;
+                dropboxContentTree.updateContentTree(Indexing.getContentFromFolder(lastSelectedNode));
+            }
+        });
         JButton deleteButton = new JButton();
         JButton createFolderButton = new JButton();
         JButton configureButton = new JButton();
@@ -84,10 +93,10 @@ public class DropboxMainWindow extends JFrame {
             userInfoButton.setIcon(new ImageIcon(img));
 
             img = ImageIO.read(new File("res\\go-down.png"));
-            downButton.setIcon(new ImageIcon(img));
+            backButton.setIcon(new ImageIcon(img));
 
             img = ImageIO.read(new File("res\\go-up.png"));
-            upButton.setIcon(new ImageIcon(img));
+            forwardButton.setIcon(new ImageIcon(img));
 
             img = ImageIO.read(new File("res\\delete.png"));
             deleteButton.setIcon(new ImageIcon(img));
@@ -102,8 +111,8 @@ public class DropboxMainWindow extends JFrame {
         }
 
         topButtonsPanel.add(userInfoButton);
-        topButtonsPanel.add(downButton);
-        topButtonsPanel.add(upButton);
+        topButtonsPanel.add(backButton);
+        topButtonsPanel.add(forwardButton);
         topButtonsPanel.add(deleteButton);
         topButtonsPanel.add(createFolderButton);
         topButtonsPanel.add(configureButton);
@@ -114,8 +123,8 @@ public class DropboxMainWindow extends JFrame {
 
         add(new JLabel("SyncMe v2 - Copyright 2017 Adrián Rodríguez Bazaga"), BorderLayout.SOUTH);
 
-        lastRootDirectory = "/Test";
-        dropboxContentTree.updateContentTree(Indexing.getContentFromFolder("/"));
+        lastRootDirectory = "/";
+        dropboxContentTree.updateContentTree(Indexing.getContentFromFolder(""));
         //dropboxContentTree.updateContentTree(Indexing.getAllContentRecursivelyFromRoot());
     }
 }

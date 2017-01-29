@@ -1,6 +1,6 @@
 package gui;
 
-import operations.dropbox.GetAccessToken;
+import operations.dropbox.Token;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -65,7 +65,7 @@ public class DropboxAuthorizationWindow {
         typeAuthCodePart.setBackground(Color.WHITE);
         typeAuthCodePartBottom.setBackground(Color.WHITE);
 
-        JTextField f = new JTextField("Auth URL: " + GetAccessToken.getAuthUrl());
+        JTextField f = new JTextField("Auth URL: " + Token.getAuthUrl());
         f.setEditable(false);
         typeAuthCodePart.add(f, BorderLayout.CENTER);
 
@@ -79,9 +79,9 @@ public class DropboxAuthorizationWindow {
             public void actionPerformed(ActionEvent e)
             {
                 String authCode = authCodeTextField.getText();
-                if(GetAccessToken.tryAuthorization(authCode)) {
+                if(Token.tryAuthorization(authCode)) {
                     try {
-                        if(GetAccessToken.saveAuthInfoToFile()) {
+                        if(Token.saveAuthInfoToFile()) {
                             showSuccessDialog();
                         } else {
                             showErrorDialog();

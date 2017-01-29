@@ -1,7 +1,5 @@
 package gui;
 
-import operations.dropbox.GetAccessToken;
-
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;

@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03702cc5-9b61-41c3-9eac-0aeb602fb05b" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/operations/dropbox/GetAccessToken.java" afterPath="$PROJECT_DIR$/src/main/java/operations/dropbox/Token.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/operations/dropbox/GetAccountInfo.java" afterPath="$PROJECT_DIR$/src/main/java/operations/dropbox/Account.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/operations/dropbox/Listing.java" afterPath="$PROJECT_DIR$/src/main/java/operations/dropbox/DirectoryIndexing.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/gui/InitialWindow.java" afterPath="$PROJECT_DIR$/src/main/java/gui/InitialWindow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/gui/DropboxAuthorizationWindow.java" afterPath="$PROJECT_DIR$/src/main/java/gui/DropboxAuthorizationWindow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/gui/ErrorDialog.java" afterPath="$PROJECT_DIR$/src/main/java/gui/ErrorDialog.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -33,11 +37,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GetAccessToken.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/GetAccessToken.java">
+      <file leaf-file-name="Token.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/Token.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+            <state relative-caret-position="221">
+              <caret line="82" column="43" lean-forward="false" selection-start-line="82" selection-start-column="43" selection-end-line="82" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DirectoryIndexing.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/DirectoryIndexing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="62" lean-forward="false" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,11 +65,11 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/gui/ErrorDialog.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="292">
-              <caret line="44" column="38" lean-forward="false" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
+              <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1164#1165#0" expanded="true" />
-                <element signature="e#1205#1206#0" expanded="true" />
+                <element signature="e#1121#1122#0" expanded="true" />
+                <element signature="e#1162#1163#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,7 +97,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InitialWindow.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InitialWindow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/gui/InitialWindow.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="471">
@@ -121,18 +137,6 @@
             <state relative-caret-position="347">
               <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetAccountInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/GetAccountInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="40" column="65" lean-forward="true" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -518,6 +522,8 @@
         <option value="$PROJECT_DIR$/src/main/java/tools/system/FileChecker.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/WarningDialog.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/InitialWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/operations/dropbox/Token.java" />
+        <option value="$PROJECT_DIR$/src/main/java/operations/dropbox/DirectoryIndexing.java" />
       </list>
     </option>
   </component>
@@ -748,14 +754,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="GetAccountInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Account" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="operations.dropbox.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="operations.dropbox.GetAccountInfo" />
+      <option name="MAIN_CLASS_NAME" value="operations.dropbox.Account" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -768,14 +774,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Listing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="DirectoryIndexing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="operations.dropbox.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="operations.dropbox.Listing" />
+      <option name="MAIN_CLASS_NAME" value="operations.dropbox.DirectoryIndexing" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -1043,8 +1049,8 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Application.GetAccountInfo" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Listing" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Account" />
+      <item index="2" class="java.lang.String" itemvalue="Application.DirectoryIndexing" />
       <item index="3" class="java.lang.String" itemvalue="Application.LoginWindow" />
       <item index="4" class="java.lang.String" itemvalue="Application.Main (1)" />
     </list>
@@ -1052,8 +1058,8 @@
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.Main (1)" />
         <item index="1" class="java.lang.String" itemvalue="Application.LoginWindow" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Listing" />
-        <item index="3" class="java.lang.String" itemvalue="Application.GetAccountInfo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.DirectoryIndexing" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Account" />
         <item index="4" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -1188,12 +1194,19 @@
       <option name="project" value="LOCAL" />
       <updated>1485718570033</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Showing warning window on initial window GD selection">
+      <created>1485718742594</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1485718742594</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1210,7 +1223,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22493573" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22493573" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1247,7 +1260,8 @@
     <MESSAGE value="Added system file checker tool" />
     <MESSAGE value="Added warning image" />
     <MESSAGE value="Created warning dialog" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created warning dialog" />
+    <MESSAGE value="Showing warning window on initial window GD selection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Showing warning window on initial window GD selection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1395,20 +1409,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/Listing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="32" column="62" lean-forward="false" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/GetAccountInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/Account.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
-          <caret line="40" column="65" lean-forward="true" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="65" />
+          <caret line="40" column="65" lean-forward="false" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1442,11 +1446,11 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/gui/ErrorDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
-          <caret line="44" column="38" lean-forward="false" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
+          <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
-            <element signature="e#1205#1206#0" expanded="true" />
+            <element signature="e#1121#1122#0" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1477,16 +1481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/GetAccessToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gui/InitialWindow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="471">
@@ -1495,6 +1489,26 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1241#1242#0" expanded="true" />
             <element signature="e#1288#1289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/Token.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="82" column="43" lean-forward="false" selection-start-line="82" selection-start-column="43" selection-end-line="82" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/DirectoryIndexing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="62" lean-forward="false" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

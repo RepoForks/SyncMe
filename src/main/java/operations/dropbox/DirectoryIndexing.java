@@ -17,7 +17,7 @@ import java.io.FileInputStream;
 import java.io.InputStream;
 import java.io.IOException;
 
-public class Listing {
+public class DirectoryIndexing {
     private static final String ACCESS_TOKEN = "Cgn8g1z7JVoAAAAAAAAqb62RrSIaVp4YG_o7qzE-TU6xt1zJ-p0IdCPQCq5Cfnub";
 
     public static void main(String args[]) throws DbxException, IOException {

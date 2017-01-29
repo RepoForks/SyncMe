@@ -10,7 +10,7 @@ import com.dropbox.core.json.JsonReader;
 import java.io.File;
 import java.io.IOException;
 
-public class GetAccessToken {
+public class Token {
 
     public static String argAppInfoFile = "syncme.app";
     public static String argAuthFileOutput = "syncme.auth";

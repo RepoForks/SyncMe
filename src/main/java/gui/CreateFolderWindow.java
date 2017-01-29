@@ -19,6 +19,7 @@ public class CreateFolderWindow extends JFrame {
         setSize(400,400);
         setResizable(false);
         getContentPane().setBackground(Color.WHITE);
+        setLayout(new GridLayout(2,1));
 
         ImageIcon windowIcon = new ImageIcon("res\\syncme.png");
         setIconImage(windowIcon.getImage());
@@ -56,8 +57,8 @@ public class CreateFolderWindow extends JFrame {
         });
         folderInputBottomPart.add(createFolderButton);
 
-        add(folderInputPart, BorderLayout.NORTH);
-        add(folderInputBottomPart, BorderLayout.SOUTH);
+        add(folderInputPart);
+        add(folderInputBottomPart);
     }
 
     public void showWindow() {

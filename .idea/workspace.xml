@@ -4,8 +4,6 @@
     <list default="true" id="03702cc5-9b61-41c3-9eac-0aeb602fb05b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/gui/CreateFolderWindow.java" afterPath="$PROJECT_DIR$/src/main/java/gui/CreateFolderWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/gui/DropboxMainWindow.java" afterPath="$PROJECT_DIR$/src/main/java/gui/DropboxMainWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/operations/dropbox/UploadFile.java" afterPath="$PROJECT_DIR$/src/main/java/operations/dropbox/UploadFile.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -35,7 +33,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DropboxMainWindow.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DropboxMainWindow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/gui/DropboxMainWindow.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="318">
@@ -47,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateFolderWindow.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CreateFolderWindow.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/gui/CreateFolderWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="63" column="36" lean-forward="false" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+            <state relative-caret-position="29">
+              <caret line="41" column="35" lean-forward="false" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -518,8 +516,8 @@
         <option value="$PROJECT_DIR$/src/main/java/operations/dropbox/CreateFolder.java" />
         <option value="$PROJECT_DIR$/src/main/java/tools/helpers/StringHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/operations/dropbox/UploadFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gui/CreateFolderWindow.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/DropboxMainWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gui/CreateFolderWindow.java" />
       </list>
     </option>
   </component>
@@ -1162,13 +1160,6 @@
       <option name="presentableId" value="Default" />
       <updated>1485615542522</updated>
     </task>
-    <task id="LOCAL-00003" summary="Initial window prototype">
-      <created>1485709281319</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1485709281319</updated>
-    </task>
     <task id="LOCAL-00004" summary="Created splash screen transition to initial window">
       <created>1485710652236</created>
       <option name="number" value="00004" />
@@ -1505,7 +1496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485734040125</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Opening create folder window on button clicking">
+      <created>1485734169617</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1485734169617</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1547,7 +1545,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="First Dropbox CoreManager version" />
     <MESSAGE value="Fix upload file op" />
     <MESSAGE value="Starting with JSON parser for tokens" />
     <MESSAGE value="JSON Parser for Dropbox token working" />
@@ -1572,7 +1569,8 @@
     <MESSAGE value="Create folder window finished" />
     <MESSAGE value="Fixing malformed URL when going backward and trying to create folder" />
     <MESSAGE value="Modifying Upload operation to handle malformed URL fixing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modifying Upload operation to handle malformed URL fixing" />
+    <MESSAGE value="Opening create folder window on button clicking" />
+    <option name="LAST_COMMIT_MESSAGE" value="Opening create folder window on button clicking" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1885,20 +1883,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/CreateFolderWindow.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/DropboxMainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="63" column="36" lean-forward="false" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+        <state relative-caret-position="318">
+          <caret line="113" column="48" lean-forward="false" selection-start-line="113" selection-start-column="48" selection-end-line="113" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/DropboxMainWindow.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/CreateFolderWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="113" column="48" lean-forward="false" selection-start-line="113" selection-start-column="48" selection-end-line="113" selection-end-column="48" />
+        <state relative-caret-position="29">
+          <caret line="41" column="35" lean-forward="false" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

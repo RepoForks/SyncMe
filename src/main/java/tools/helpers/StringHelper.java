@@ -10,4 +10,23 @@ public class StringHelper {
     public static int countMatches(String text, String symbol) {
         return StringUtils.countMatches(text, symbol);
     }
+
+    public static String fixUrlPathFormat(String path) {
+        if(path.charAt(1) == '/') {
+            StringBuilder sb = new StringBuilder(path);
+            sb.deleteCharAt(1);
+            return sb.toString();
+        } else {
+            return path;
+        }
+    }
+
+    public static boolean malformedFirstDepthUrl(String path) {
+        String[] splittedPath = path.split("/");
+        if(splittedPath.length == 2) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }

@@ -40,10 +40,23 @@ public class InitialWindow {
 
         ImageIcon windowIcon = new ImageIcon("res\\syncme.png");
 
-        JButton loginToDropbox = new JButton("Login to Dropbox");
+        JButton loginToDropbox = new JButton("Access to Dropbox account");
         buttonsPanel.add(loginToDropbox);
+        loginToDropbox.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e)
+            {
+                frame.dispose();
+            }
+        });
 
-        JButton loginToGoogleDrive = new JButton("Login to Google Drive");
+        JButton loginToGoogleDrive = new JButton("Access to Google Drive account");
+        loginToGoogleDrive.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e)
+            {
+                ErrorDialog errorDialog = new ErrorDialog();
+                errorDialog.showWindow();
+            }
+        });
         buttonsPanel.add(loginToGoogleDrive);
 
         JButton getAccessTokenButton = new JButton("Get access token");

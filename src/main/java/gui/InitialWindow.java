@@ -21,11 +21,13 @@ public class InitialWindow {
 
         JPanel panel = new JPanel();
         placeComponents(panel);
+
+        frame.pack();
     }
 
     public void showWindow() {
+        frame.setLocationRelativeTo(null);
         frame.setVisible(true);
-        frame.pack();
     }
 
     private void placeComponents(JPanel panel) {
@@ -34,15 +36,7 @@ public class InitialWindow {
 
         JPanel buttonsPanel = new JPanel (new GridLayout(0,1));
 
-        BufferedImage myPicture = null;
         ImageIcon windowIcon = new ImageIcon("C:\\Users\\QiCanarias23\\IdeaProjects\\syncme\\res\\syncme.png");
-        try {
-            myPicture = ImageIO.read(new File("C:\\Users\\QiCanarias23\\IdeaProjects\\syncme\\res\\syncme.png"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        JLabel picLabel = new JLabel(new ImageIcon(myPicture));
 
         JButton loginToDropbox = new JButton("Login to Dropbox");
         buttonsPanel.add(loginToDropbox);
@@ -53,11 +47,9 @@ public class InitialWindow {
         JButton getAccessTokenButton = new JButton("Get access token");
         buttonsPanel.add(getAccessTokenButton);
 
-        frame.add(buttonsPanel, BorderLayout.NORTH);
+        frame.add(buttonsPanel, BorderLayout.CENTER);
 
-        frame.add(picLabel, BorderLayout.CENTER);
-
-        JLabel userLabel = new JLabel("SyncMe prototype v2");
+        JLabel userLabel = new JLabel("Copyright 2017 Adrián Rodríguez Bazaga");
         frame.add(userLabel, BorderLayout.SOUTH);
 
         frame.setIconImage(windowIcon.getImage());

@@ -5,6 +5,7 @@ package logic;
  */
 
 import gui.InitialWindow;
+import gui.SplashScreen;
 
 import java.io.IOException;
 
@@ -17,7 +18,7 @@ public class Main {
         SwingUtilities.invokeAndWait(new Runnable() {
             public void run() {
                 try {
-                    InitialWindow frame = new InitialWindow();
+                    SplashScreen frame = new SplashScreen();
                     frame.showWindow();
                 } catch (Exception e) {
                     e.printStackTrace();

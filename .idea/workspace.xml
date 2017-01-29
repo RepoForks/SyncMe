@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="03702cc5-9b61-41c3-9eac-0aeb602fb05b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/operations/dropbox/Indexing.java" afterPath="$PROJECT_DIR$/src/main/java/operations/dropbox/Indexing.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/operations/dropbox/Account.java" afterPath="$PROJECT_DIR$/src/main/java/operations/dropbox/Account.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -59,21 +59,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Indexing.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Indexing.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/Indexing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
-              <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-              <folding />
+            <state relative-caret-position="253">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Account.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+            <state relative-caret-position="250">
+              <caret line="54" column="41" lean-forward="true" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -531,9 +533,9 @@
         <option value="$PROJECT_DIR$/src/main/java/tools/data/JSONParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/operations/dropbox/CoreManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/operations/dropbox/Account.java" />
         <option value="$PROJECT_DIR$/src/main/java/operations/dropbox/DirectoryIndexing.java" />
         <option value="$PROJECT_DIR$/src/main/java/operations/dropbox/Indexing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/operations/dropbox/Account.java" />
       </list>
     </option>
   </component>
@@ -1377,7 +1379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485724041618</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Refactoring">
+      <created>1485724139697</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1485724139697</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1419,7 +1428,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixing some paths" />
     <MESSAGE value="Removing .auth file" />
     <MESSAGE value="Created error dialog" />
     <MESSAGE value="Created success dialog" />
@@ -1444,7 +1452,8 @@
     <MESSAGE value="CoreManager correctly updating access token" />
     <MESSAGE value="Directory and file listing from root is working" />
     <MESSAGE value="Indexing from root both recursively and not rec. are working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Indexing from root both recursively and not rec. are working" />
+    <MESSAGE value="Refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1723,21 +1732,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/Account.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/Indexing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        <state relative-caret-position="253">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/Indexing.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="250">
+          <caret line="54" column="41" lean-forward="true" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

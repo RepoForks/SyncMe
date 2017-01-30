@@ -69,7 +69,10 @@ You may obtain a copy of the License at
 
 ## ADDITIONAL LICENSE TERMS
 ``` java
-1. a
-2. b
-3. c
+1. You CAN'T profit from using/modifying this project.
+2. You CAN'T create any derivative/modified work from this one inflinging the terms of the attached [LICENSE](LICENSE).
+3. You MUST keep the NOTICE file content in any derivative/modified work from this one, as the attached [LICENSE](LICENSE) stipulates.
+4. You CAN'T be intended to use SyncMe for commercial uses WITHOUT the original [AUTHOR](AUTHOR) knowledge and permission.
+5. You CAN'T expect to have regular updates on the project
+6. You SHOULD contribute to the project to make it better
 ```

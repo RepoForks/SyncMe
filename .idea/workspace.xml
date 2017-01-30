@@ -969,13 +969,6 @@
       <option name="presentableId" value="Default" />
       <updated>1485615542522</updated>
     </task>
-    <task id="LOCAL-00016" summary="Added warning image">
-      <created>1485718497571</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1485718497571</updated>
-    </task>
     <task id="LOCAL-00017" summary="Created warning dialog">
       <created>1485718570033</created>
       <option name="number" value="00017" />
@@ -1312,7 +1305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485737400004</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Updated README">
+      <created>1485737686182</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1485737686182</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1354,7 +1354,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding tree selection event to Dropbox content tree" />
     <MESSAGE value="Traversing inside a folder is working" />
     <MESSAGE value="Added StringHelper tool" />
     <MESSAGE value="Backwards traversing working at first depth level" />
@@ -1379,7 +1378,8 @@
     <MESSAGE value="Added USAGE.md" />
     <MESSAGE value="Added AUTHOR, modified README" />
     <MESSAGE value="Added missing files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added missing files" />
+    <MESSAGE value="Updated README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

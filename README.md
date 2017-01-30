@@ -1,6 +1,6 @@
 # SyncMe
 [![SyncMe Logo](https://syncme.files.wordpress.com/2016/04/header.png?w=624)](https://syncme.wordpress.com/)<br><br>
-Build Status: 
+Build Status: ---
 
 SyncMe is a cross-platform application (Linux, Windows, Mac) with the main goal of unify the synchronization of Dropbox and Google Drive platforms into a single application, allowing you to manage all your files easily.
 
@@ -69,10 +69,10 @@ You may obtain a copy of the License at
 
 ## ADDITIONAL LICENSE TERMS
 ``` java
-1. You CAN'T profit from using/modifying this project.
-2. You CAN'T create any derivative/modified work from this one inflinging the terms of the attached [LICENSE](LICENSE).
-3. You MUST keep the NOTICE file content in any derivative/modified work from this one, as the attached [LICENSE](LICENSE) stipulates.
-4. You CAN'T be intended to use SyncMe for commercial uses WITHOUT the original [AUTHOR](AUTHOR) knowledge and permission.
-5. You CAN'T expect to have regular updates on the project
+1. You CAN NOT profit from using/modifying this project
+2. You CAN NOT create any derivative/modified work from this one inflinging the terms of the attached LICENSE)
+3. You MUST keep the NOTICE file content in any derivative/modified work from this one, as the attached LICENSE stipulates
+4. You CAN NOT be intended to use SyncMe for commercial uses WITHOUT the original AUTHOR knowledge and permission
+5. You CAN NOT expect to have regular updates on the project (I'm a student that is also working, so time ~= 0)
 6. You SHOULD contribute to the project to make it better
 ```

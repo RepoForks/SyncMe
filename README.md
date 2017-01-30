@@ -10,7 +10,7 @@ Please note that development is very early on and the project is not ready to us
 
 ## VERSION
 
-Currently SyncMe has been ported to Java and updated to SyncMe v2 in order to work with the newest versions of Dropbox API (2.0) and Google Drive API (3.0), original SyncMe (v1) was intended to be a prototype using Google Drive API 2.0 and Dropbox API 1.0 HTTP calls, but now API calls from that version are no longer supported neither by Google or Dropbox.
+Currently SyncMe has been ported to Java and updated to SyncMe v2 in order to work with the newest versions of Dropbox API (2.0) and Google Drive API (3.0), original SyncMe (v1) was intended to be a prototype using Google Drive API 2.0 and Dropbox API 1.0 HTTP calls, but now API calls from that versions are no longer supported neither by Google or Dropbox.
 
 ## DEPENDENCIES
 

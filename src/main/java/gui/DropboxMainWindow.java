@@ -114,6 +114,16 @@ public class DropboxMainWindow extends JFrame {
                 createFolderWindow.showWindow();
             }
         });
+
+        JButton uploadFileButton = new JButton();
+        uploadFileButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e)
+            {
+                CreateFolderWindow createFolderWindow = new CreateFolderWindow(lastRootDirectory);
+                createFolderWindow.showWindow();
+            }
+        });
+
         JButton configureButton = new JButton();
         try {
             Image img = ImageIO.read(new File("res\\user-identity.png"));
@@ -124,6 +134,9 @@ public class DropboxMainWindow extends JFrame {
 
             img = ImageIO.read(new File("res\\go-up.png"));
             forwardButton.setIcon(new ImageIcon(img));
+
+            img = ImageIO.read(new File("res\\upload.png"));
+            uploadFileButton.setIcon(new ImageIcon(img));
 
             img = ImageIO.read(new File("res\\delete.png"));
             deleteButton.setIcon(new ImageIcon(img));
@@ -140,8 +153,9 @@ public class DropboxMainWindow extends JFrame {
         topButtonsPanel.add(userInfoButton);
         topButtonsPanel.add(backButton);
         topButtonsPanel.add(forwardButton);
-        topButtonsPanel.add(deleteButton);
+        topButtonsPanel.add(uploadFileButton);
         topButtonsPanel.add(createFolderButton);
+        topButtonsPanel.add(deleteButton);
         topButtonsPanel.add(configureButton);
 
         add(topButtonsPanel, BorderLayout.NORTH);

@@ -969,13 +969,6 @@
       <option name="presentableId" value="Default" />
       <updated>1485615542522</updated>
     </task>
-    <task id="LOCAL-00018" summary="Showing warning window on initial window GD selection">
-      <created>1485718742594</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1485718742594</updated>
-    </task>
     <task id="LOCAL-00019" summary="Some refactoring">
       <created>1485718833181</created>
       <option name="number" value="00019" />
@@ -1312,7 +1305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485737863256</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Updated README">
+      <created>1485737923001</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1485737923001</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="ToolWindowManager">

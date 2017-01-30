@@ -70,9 +70,34 @@ You may obtain a copy of the License at
 ## ADDITIONAL LICENSE TERMS
 ``` java
 1. You CAN NOT profit from using/modifying this project
-2. You CAN NOT create any derivative/modified work from this one inflinging the terms of the attached LICENSE)
-3. You MUST keep the NOTICE file content in any derivative/modified work from this one, as the attached LICENSE stipulates
+2. You CAN NOT create any derivative/modified work from this one inflinging the terms of the attached LICENSE
+3. You MUST keep the NOTICE file content in any derivative work from this one, as the attached LICENSE stipulates
 4. You CAN NOT be intended to use SyncMe for commercial uses WITHOUT the original AUTHOR knowledge and permission
 5. You CAN NOT expect to have regular updates on the project (I am studying and working, so time ~= 0)
 6. You SHOULD contribute to the project to make it better
 ```
+
+## Screenshots
+
+Splash screen (Pre-release 0.1.0)<br>
+<div style="text-align:center">![Splash screen (Pre-release 0.1.0)](http://i.imgur.com/9RPBtdd.png "Splash screen (Pre-release 0.1.0)")</div><br>
+
+Initial screen (Pre-release 0.1.0)<br>
+<div style="text-align:center">![Initial screen (Pre-release 0.1.0)](http://i.imgur.com/x98yghy.png "Initial screen (Pre-release 0.1.0)")</div><br>
+
+Connecting to your Dropbox account (Pre-release 0.1.0)<br>
+<div style="text-align:center">![Connecting to your Dropbox account (Pre-release 0.1.0)](http://i.imgur.com/aqIKVPj.png "Connecting to your Dropbox account (Pre-release 0.1.0)")</div><br><br>
+<div style="text-align:center">![Connecting to your Dropbox account (Pre-release 0.1.0)](http://i.imgur.com/Gxu5k5V.png "Connecting to your Dropbox account (Pre-release 0.1.0)")</div><br><br>
+<div style="text-align:center">![Connecting to your Dropbox account (Pre-release 0.1.0)](http://i.imgur.com/LsWJ6Kv.png "Connecting to your Dropbox account (Pre-release 0.1.0)")</div><br>
+
+Dropbox main window (Pre-release 0.1.0)<br>
+<div style="text-align:center">![Dropbox main window (Pre-release 0.1.0)](http://i.imgur.com/wrjWT9V.png "Dropbox main window (Pre-release 0.1.0)")</div><br>
+
+Uploading a file (Pre-release 0.1.0)<br>
+<div style="text-align:center">![Uploading a file (Pre-release 0.1.0)](http://i.imgur.com/dYwo0TS.png "Uploading a file (Pre-release 0.1.0)")</div><br>
+
+Creating a new folder (Pre-release 0.1.0)<br>
+<div style="text-align:center">![Creating a new folder (Pre-release 0.1.0)](http://i.imgur.com/JyGt0h3.png "Creating a new folder (Pre-release 0.1.0)")</div><br>
+
+Dropbox account info view (Pre-release 0.1.0)<br>
+<div style="text-align:center">![Dropbox account info view (Pre-release 0.1.0)](http://i.imgur.com/MrloyLO.png "Dropbox account info view (Pre-release 0.1.0)")</div><br>

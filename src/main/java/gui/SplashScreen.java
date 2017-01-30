@@ -1,5 +1,7 @@
 package gui;
 
+import tools.helpers.WebBrowserHelper;
+
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
@@ -8,6 +10,8 @@ import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 
 /**
  * Created by @AdrianBZG (www.adrianbazaga.com) on 29/01/2017.
@@ -60,7 +64,13 @@ public class SplashScreen {
         licenseButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e)
             {
-                //
+                try {
+                    WebBrowserHelper.openWebpage(new URL("https://github.com/AdrianBZG/SyncMe/blob/master/README.md"));
+                    SplashScreen splashScreen = new SplashScreen();
+                    splashScreen.showWindow();
+                } catch (MalformedURLException e1) {
+                    e1.printStackTrace();
+                }
             }
         });
 

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03702cc5-9b61-41c3-9eac-0aeb602fb05b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tools/helpers/WebBrowserHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/gui/SplashScreen.java" afterPath="$PROJECT_DIR$/src/main/java/gui/SplashScreen.java" />
     </list>
@@ -96,21 +95,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SplashScreen.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SplashScreen.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/gui/SplashScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="62" column="18" lean-forward="true" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
-              <folding />
+            <state relative-caret-position="287">
+              <caret line="69" column="46" lean-forward="false" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebBrowserHelper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WebBrowserHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tools/helpers/WebBrowserHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+            <state relative-caret-position="102">
+              <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -535,8 +536,8 @@
         <option value="$PROJECT_DIR$/src/main/java/gui/DropboxMainWindow.java" />
         <option value="$PROJECT_DIR$/src/main/java/operations/dropbox/UploadFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/UploadFileWindow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gui/SplashScreen.java" />
         <option value="$PROJECT_DIR$/src/main/java/tools/helpers/WebBrowserHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gui/SplashScreen.java" />
       </list>
     </option>
   </component>
@@ -1179,13 +1180,6 @@
       <option name="presentableId" value="Default" />
       <updated>1485615542522</updated>
     </task>
-    <task id="LOCAL-00009" summary="Removing .auth file">
-      <created>1485714383763</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1485714383763</updated>
-    </task>
     <task id="LOCAL-00010" summary="Created error dialog">
       <created>1485715626125</created>
       <option name="number" value="00010" />
@@ -1522,7 +1516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485735314519</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Created web browser helper to open pages on desktop">
+      <created>1485735449277</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1485735449277</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1564,7 +1565,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Indexing from root both recursively and not rec. are working" />
     <MESSAGE value="Refactoring" />
     <MESSAGE value="First version of account info getters operations finished" />
     <MESSAGE value="Starting with Dropbox account info window" />
@@ -1589,7 +1589,8 @@
     <MESSAGE value="Starting with file uploading" />
     <MESSAGE value="File uploading window finished" />
     <MESSAGE value="Uploading file is working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uploading file is working" />
+    <MESSAGE value="Created web browser helper to open pages on desktop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created web browser helper to open pages on desktop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1924,18 +1925,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/SplashScreen.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/helpers/WebBrowserHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="62" column="18" lean-forward="true" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="102">
+          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tools/helpers/WebBrowserHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/SplashScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        <state relative-caret-position="287">
+          <caret line="69" column="46" lean-forward="false" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

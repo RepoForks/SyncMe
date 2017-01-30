@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03702cc5-9b61-41c3-9eac-0aeb602fb05b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tools/helpers/WebBrowserHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/gui/DropboxMainWindow.java" afterPath="$PROJECT_DIR$/src/main/java/gui/DropboxMainWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/gui/UploadFileWindow.java" afterPath="$PROJECT_DIR$/src/main/java/gui/UploadFileWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/operations/dropbox/UploadFile.java" afterPath="$PROJECT_DIR$/src/main/java/operations/dropbox/UploadFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/gui/SplashScreen.java" afterPath="$PROJECT_DIR$/src/main/java/gui/SplashScreen.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -47,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UploadFileWindow.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UploadFileWindow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/gui/UploadFileWindow.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -88,8 +87,30 @@
       <file leaf-file-name="InitialWindow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/gui/InitialWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
+            <state relative-caret-position="-668">
               <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SplashScreen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gui/SplashScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="62" column="18" lean-forward="true" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebBrowserHelper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tools/helpers/WebBrowserHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,33 +140,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountInfoWindow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gui/AccountInfoWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="StringHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tools/helpers/StringHelper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="369">
               <caret line="43" column="51" lean-forward="false" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DropboxAuthorizationWindow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gui/DropboxAuthorizationWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="76" column="3" lean-forward="false" selection-start-line="76" selection-start-column="3" selection-end-line="99" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -512,7 +511,6 @@
         <option value="$PROJECT_DIR$/res/test.txt" />
         <option value="$PROJECT_DIR$/src/main/java/operations/dropbox/Listing.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/LoginWindow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gui/SplashScreen.java" />
         <option value="$PROJECT_DIR$/src/main/java/operations/dropbox/GetAccountInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/operations/dropbox/GetAccessToken.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/SuccessDialog.java" />
@@ -537,6 +535,8 @@
         <option value="$PROJECT_DIR$/src/main/java/gui/DropboxMainWindow.java" />
         <option value="$PROJECT_DIR$/src/main/java/operations/dropbox/UploadFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/UploadFileWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gui/SplashScreen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tools/helpers/WebBrowserHelper.java" />
       </list>
     </option>
   </component>
@@ -1179,13 +1179,6 @@
       <option name="presentableId" value="Default" />
       <updated>1485615542522</updated>
     </task>
-    <task id="LOCAL-00008" summary="Fixing some paths">
-      <created>1485713868163</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1485713868163</updated>
-    </task>
     <task id="LOCAL-00009" summary="Removing .auth file">
       <created>1485714383763</created>
       <option name="number" value="00009" />
@@ -1522,7 +1515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485735059958</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Uploading file is working">
+      <created>1485735314519</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1485735314519</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1564,7 +1564,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Directory and file listing from root is working" />
     <MESSAGE value="Indexing from root both recursively and not rec. are working" />
     <MESSAGE value="Refactoring" />
     <MESSAGE value="First version of account info getters operations finished" />
@@ -1589,7 +1588,8 @@
     <MESSAGE value="Added upload image" />
     <MESSAGE value="Starting with file uploading" />
     <MESSAGE value="File uploading window finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="File uploading window finished" />
+    <MESSAGE value="Uploading file is working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uploading file is working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1754,14 +1754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/SplashScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="43" column="64" lean-forward="false" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tools/data/JSONParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1882,16 +1874,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/InitialWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/CreateFolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1928,6 +1910,34 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1178#1179#0" expanded="true" />
             <element signature="e#1221#1222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/InitialWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-668">
+          <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/SplashScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="62" column="18" lean-forward="true" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/helpers/WebBrowserHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

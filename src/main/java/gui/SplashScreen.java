@@ -57,6 +57,13 @@ public class SplashScreen {
         JButton okButton = new JButton("OK");
         JButton licenseButton = new JButton("LICENSE");
 
+        licenseButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e)
+            {
+                //
+            }
+        });
+
         okButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e)
             {

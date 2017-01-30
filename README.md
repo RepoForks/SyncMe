@@ -73,6 +73,6 @@ You may obtain a copy of the License at
 2. You CAN NOT create any derivative/modified work from this one inflinging the terms of the attached LICENSE)
 3. You MUST keep the NOTICE file content in any derivative/modified work from this one, as the attached LICENSE stipulates
 4. You CAN NOT be intended to use SyncMe for commercial uses WITHOUT the original AUTHOR knowledge and permission
-5. You CAN NOT expect to have regular updates on the project (I'm a student that is also working, so time ~= 0)
+5. You CAN NOT expect to have regular updates on the project (I am studying and working, so time ~= 0)
 6. You SHOULD contribute to the project to make it better
 ```

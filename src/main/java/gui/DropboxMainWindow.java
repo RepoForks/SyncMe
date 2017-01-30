@@ -119,7 +119,7 @@ public class DropboxMainWindow extends JFrame {
         uploadFileButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e)
             {
-                UploadFileWindow uploadFileWindow = new UploadFileWindow();
+                UploadFileWindow uploadFileWindow = new UploadFileWindow(lastRootDirectory);
                 uploadFileWindow.showFileChooser();
             }
         });

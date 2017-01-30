@@ -1,5 +1,7 @@
 package gui;
 
+import operations.dropbox.UploadFile;
+
 import javax.swing.*;
 
 /**
@@ -7,9 +9,11 @@ import javax.swing.*;
  */
 public class UploadFileWindow extends JFrame {
     private String lastSelectedFilePath = null;
+    private String lastRootDirectory = null;
 
-    public UploadFileWindow() {
+    public UploadFileWindow(String lastRootDirectory) {
         super();
+        this.lastRootDirectory = lastRootDirectory;
     }
 
     public void showFileChooser() {
@@ -19,6 +23,14 @@ public class UploadFileWindow extends JFrame {
             String selectedFilePath = choice.getSelectedFile().getPath();
             System.out.println(selectedFilePath);
             lastSelectedFilePath = selectedFilePath;
+
+            if(UploadFile.uploadFile(lastSelectedFilePath, lastRootDirectory)) {
+                SuccessDialog successWindow = new SuccessDialog();
+                successWindow.showWindow();
+            } else {
+                ErrorDialog errorDialog = new ErrorDialog();
+                errorDialog.showWindow();
+            }
         }
     }
 

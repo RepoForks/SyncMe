@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="03702cc5-9b61-41c3-9eac-0aeb602fb05b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -969,13 +968,6 @@
       <option name="presentableId" value="Default" />
       <updated>1485615542522</updated>
     </task>
-    <task id="LOCAL-00014" summary="DB and GD buttons events added">
-      <created>1485717003788</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1485717003788</updated>
-    </task>
     <task id="LOCAL-00015" summary="Added system file checker tool">
       <created>1485717312806</created>
       <option name="number" value="00015" />
@@ -1312,7 +1304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485737174163</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Added AUTHOR, modified README">
+      <created>1485737346635</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1485737346635</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1354,7 +1353,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Playing with the content tree on main Dropbox window" />
     <MESSAGE value="Traversing content tree is working" />
     <MESSAGE value="Adding tree selection event to Dropbox content tree" />
     <MESSAGE value="Traversing inside a folder is working" />
@@ -1379,7 +1377,8 @@
     <MESSAGE value="Added INSTALL.md" />
     <MESSAGE value="Update README.md and INSTALL.md" />
     <MESSAGE value="Added USAGE.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added USAGE.md" />
+    <MESSAGE value="Added AUTHOR, modified README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added AUTHOR, modified README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

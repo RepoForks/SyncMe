@@ -18,6 +18,7 @@ public class UploadFileWindow extends JFrame {
 
     public void showFileChooser() {
         JFileChooser choice = new JFileChooser();
+        choice.setDialogTitle("Upload file to current path");
         int option = choice.showOpenDialog(this);
         if (option == JFileChooser.APPROVE_OPTION) {
             String selectedFilePath = choice.getSelectedFile().getPath();

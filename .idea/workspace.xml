@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03702cc5-9b61-41c3-9eac-0aeb602fb05b" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/test.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/gui/SplashScreen.java" afterPath="$PROJECT_DIR$/src/main/java/gui/SplashScreen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/gui/UploadFileWindow.java" afterPath="$PROJECT_DIR$/src/main/java/gui/UploadFileWindow.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -45,15 +46,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UploadFileWindow.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UploadFileWindow.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/gui/UploadFileWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+            <state relative-caret-position="136">
+              <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1178#1179#0" expanded="true" />
-                <element signature="e#1221#1222#0" expanded="true" />
+                <element signature="e#1240#1241#0" expanded="true" />
+                <element signature="e#1283#1284#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SplashScreen.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SplashScreen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/gui/SplashScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="69" column="46" lean-forward="false" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="46" />
+            <state relative-caret-position="202">
+              <caret line="64" column="54" lean-forward="true" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -535,9 +536,9 @@
         <option value="$PROJECT_DIR$/src/main/java/gui/CreateFolderWindow.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/DropboxMainWindow.java" />
         <option value="$PROJECT_DIR$/src/main/java/operations/dropbox/UploadFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gui/UploadFileWindow.java" />
         <option value="$PROJECT_DIR$/src/main/java/tools/helpers/WebBrowserHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/SplashScreen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gui/UploadFileWindow.java" />
       </list>
     </option>
   </component>
@@ -1180,13 +1181,6 @@
       <option name="presentableId" value="Default" />
       <updated>1485615542522</updated>
     </task>
-    <task id="LOCAL-00010" summary="Created error dialog">
-      <created>1485715626125</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1485715626125</updated>
-    </task>
     <task id="LOCAL-00011" summary="Created success dialog">
       <created>1485715941809</created>
       <option name="number" value="00011" />
@@ -1523,7 +1517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485735449277</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Opening SyncMe repo when clicking LICENSE">
+      <created>1485735628572</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1485735628572</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1565,7 +1566,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refactoring" />
     <MESSAGE value="First version of account info getters operations finished" />
     <MESSAGE value="Starting with Dropbox account info window" />
     <MESSAGE value="Dropbox account info window is working" />
@@ -1590,7 +1590,8 @@
     <MESSAGE value="File uploading window finished" />
     <MESSAGE value="Uploading file is working" />
     <MESSAGE value="Created web browser helper to open pages on desktop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created web browser helper to open pages on desktop" />
+    <MESSAGE value="Opening SyncMe repo when clicking LICENSE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Opening SyncMe repo when clicking LICENSE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1903,18 +1904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/UploadFileWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1178#1179#0" expanded="true" />
-            <element signature="e#1221#1222#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gui/InitialWindow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-668">
@@ -1937,10 +1926,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gui/SplashScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="69" column="46" lean-forward="false" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="46" />
+        <state relative-caret-position="202">
+          <caret line="64" column="54" lean-forward="true" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/UploadFileWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
           </folding>
         </state>
       </provider>

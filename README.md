@@ -94,7 +94,7 @@ Dropbox main window (Pre-release 0.1.0)<br>
 <div style="text-align:center">![Dropbox main window (Pre-release 0.1.0)](http://i.imgur.com/wrjWT9V.png "Dropbox main window (Pre-release 0.1.0)")</div><br>
 
 Uploading a file (Pre-release 0.1.0)<br>
-<div style="text-align:center">![Uploading a file (Pre-release 0.1.0)](http://i.imgur.com/dYwo0TS.png "Uploading a file (Pre-release 0.1.0)")</div><br>
+<div style="text-align:center">![Uploading a file (Pre-release 0.1.0)](http://i.imgur.com/DdjtKvv.png "Uploading a file (Pre-release 0.1.0)")</div><br>
 
 Creating a new folder (Pre-release 0.1.0)<br>
 <div style="text-align:center">![Creating a new folder (Pre-release 0.1.0)](http://i.imgur.com/JyGt0h3.png "Creating a new folder (Pre-release 0.1.0)")</div><br>

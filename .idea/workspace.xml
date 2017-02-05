@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03702cc5-9b61-41c3-9eac-0aeb602fb05b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/syncme.iml" afterPath="$PROJECT_DIR$/.idea/modules/syncme.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/gui/InitialWindow.java" afterPath="$PROJECT_DIR$/src/main/java/gui/InitialWindow.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -47,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -86,8 +86,8 @@
       <file leaf-file-name="InitialWindow.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/gui/InitialWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="70" column="45" lean-forward="true" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
+            <state relative-caret-position="170">
+              <caret line="65" column="13" lean-forward="true" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -660,7 +660,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/json-20160810.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/google-api-services-drive-v2-rev252-1.22.0.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -1017,13 +1017,6 @@
       <option name="presentableId" value="Default" />
       <updated>1485615542522</updated>
     </task>
-    <task id="LOCAL-00022" summary="Starting with Dropbox main window">
-      <created>1485719748552</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1485719748552</updated>
-    </task>
     <task id="LOCAL-00023" summary="Checking if the user is auth before opening Dropbox window">
       <created>1485719899803</created>
       <option name="number" value="00023" />
@@ -1360,7 +1353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485739187076</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Some changes">
+      <created>1486254050248</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1486254050249</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1402,7 +1402,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Backwards traversing working at first depth level" />
     <MESSAGE value="Fixing going traversing forward with ANY depth level" />
     <MESSAGE value="Traversing backwards with ANY depth level is working" />
     <MESSAGE value="Added create folder button event" />
@@ -1427,7 +1426,8 @@
     <MESSAGE value="Updated README" />
     <MESSAGE value="Updated README with screenshots" />
     <MESSAGE value="Update README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README" />
+    <MESSAGE value="Some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1745,15 +1745,15 @@
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gui/InitialWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="70" column="45" lean-forward="true" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
+        <state relative-caret-position="170">
+          <caret line="65" column="13" lean-forward="true" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
           <folding />
         </state>
       </provider>

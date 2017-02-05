@@ -70,7 +70,7 @@ public class InitialWindow {
         });
         buttonsPanel.add(loginToGoogleDrive);
 
-        JButton getAccessTokenButton = new JButton("Get access token");
+        JButton getAccessTokenButton = new JButton("Connect with your cloud accounts");
         buttonsPanel.add(getAccessTokenButton);
 
         getAccessTokenButton.addActionListener(new ActionListener() {

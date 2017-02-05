@@ -1,11 +1,7 @@
 package operations.gdrive;
 
-import com.dropbox.core.DbxException;
-import com.dropbox.core.v2.files.ListFolderResult;
-import com.dropbox.core.v2.files.Metadata;
 import com.google.api.services.drive.model.File;
 import com.google.api.services.drive.model.FileList;
-import operations.dropbox.*;
 
 import java.io.IOException;
 import java.util.List;

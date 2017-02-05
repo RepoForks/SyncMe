@@ -1,6 +1,5 @@
 package operations.gdrive;
 
-import com.google.api.services.drive.Drive;
 import com.google.api.services.drive.model.About;
 
 import java.io.IOException;

@@ -24,19 +24,17 @@ public class Token {
         // Load client secrets.
         InputStream in = new FileInputStream("syncme-gdrive.json");
         GoogleClientSecrets clientSecrets =
-                GoogleClientSecrets.load(JSON_FACTORY, new InputStreamReader(in));
+                GoogleClientSecrets.load(CoreManager.JSON_FACTORY, new InputStreamReader(in));
 
         // Build flow and trigger user authorization request.
         GoogleAuthorizationCodeFlow flow =
                 new GoogleAuthorizationCodeFlow.Builder(
-                        HTTP_TRANSPORT, JSON_FACTORY, clientSecrets, SCOPES)
-                        .setDataStoreFactory(DATA_STORE_FACTORY)
+                        CoreManager.HTTP_TRANSPORT, CoreManager.JSON_FACTORY, clientSecrets, CoreManager.SCOPES)
+                        .setDataStoreFactory(CoreManager.DATA_STORE_FACTORY)
                         .setAccessType("offline")
                         .build();
-        Credential credential = new AuthorizationCodeInstalledApp(
-                flow, new LocalServerReceiver()).authorize("user");
-        System.out.println(
-                "Credentials saved to " + DATA_STORE_DIR.getAbsolutePath());
+        Credential credential = new AuthorizationCodeInstalledApp(flow, new LocalServerReceiver()).authorize("user");
+        System.out.println("Credentials saved to " + CoreManager.DATA_STORE_DIR.getAbsolutePath());
         return credential;
     }
 }

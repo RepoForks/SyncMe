@@ -87,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="179" lean-forward="false" selection-start-line="3" selection-start-column="179" selection-end-line="3" selection-end-column="179" />
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -949,13 +949,6 @@
       <option name="presentableId" value="Default" />
       <updated>1485615542522</updated>
     </task>
-    <task id="LOCAL-00044" summary="Fixing going traversing forward with ANY depth level">
-      <created>1485731329471</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1485731329471</updated>
-    </task>
     <task id="LOCAL-00045" summary="Traversing backwards with ANY depth level is working">
       <created>1485732100270</created>
       <option name="number" value="00045" />
@@ -1292,7 +1285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1487467796045</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="Adding badges">
+      <created>1487467899832</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1487467899832</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1681,7 +1681,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="179" lean-forward="false" selection-start-line="3" selection-start-column="179" selection-end-line="3" selection-end-column="179" />
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -23,8 +23,7 @@ public class Token {
     public static Credential authorize() throws IOException {
         // Load client secrets.
         InputStream in = new FileInputStream("syncme-gdrive.json");
-        GoogleClientSecrets clientSecrets =
-                GoogleClientSecrets.load(CoreManager.JSON_FACTORY, new InputStreamReader(in));
+        GoogleClientSecrets clientSecrets = GoogleClientSecrets.load(CoreManager.JSON_FACTORY, new InputStreamReader(in));
 
         // Build flow and trigger user authorization request.
         GoogleAuthorizationCodeFlow flow =

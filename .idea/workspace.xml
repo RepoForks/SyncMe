@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03702cc5-9b61-41c3-9eac-0aeb602fb05b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/operations/dropbox/CoreManager.java" afterPath="$PROJECT_DIR$/src/main/java/operations/dropbox/CoreManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/operations/dropbox/Token.java" afterPath="$PROJECT_DIR$/src/main/java/operations/dropbox/Token.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/operations/gdrive/Token.java" afterPath="$PROJECT_DIR$/src/main/java/operations/gdrive/Token.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -56,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+            <state relative-caret-position="306">
+              <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -69,8 +69,8 @@
       <file leaf-file-name="Token.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/operations/gdrive/Token.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="131">
+              <caret line="24" column="59" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,7 +120,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CoreManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CoreManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/CoreManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -532,7 +532,6 @@
         <option value="$PROJECT_DIR$/src/main/java/gui/UploadFileWindow.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/InitialWindow.java" />
         <option value="$PROJECT_DIR$/src/main/java/operations/dropbox/gdrive/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/operations/gdrive/Token.java" />
         <option value="$PROJECT_DIR$/src/main/java/operations/gdrive/CoreManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/operations/gdrive/QueryFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/operations/gdrive/Test.java" />
@@ -540,12 +539,13 @@
         <option value="$PROJECT_DIR$/src/main/java/operations/gdrive/Account.java" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/tools/security/StringHash.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/DropboxMainWindow.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/operations/dropbox/Token.java" />
         <option value="$PROJECT_DIR$/src/main/java/operations/dropbox/CoreManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/operations/gdrive/Token.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -1196,13 +1196,6 @@
       <option name="presentableId" value="Default" />
       <updated>1485615542522</updated>
     </task>
-    <task id="LOCAL-00053" summary="Fix create folder window">
-      <created>1485734332595</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1485734332595</updated>
-    </task>
     <task id="LOCAL-00054" summary="Added upload image">
       <created>1485734399274</created>
       <option name="number" value="00054" />
@@ -1539,12 +1532,19 @@
       <option name="project" value="LOCAL" />
       <updated>1487470381525</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="Using encryption with DESese for access token .auth file #9">
+      <created>1487470747006</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1487470747006</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1560,7 +1560,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2403599" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2403599" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1581,7 +1581,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated README with screenshots" />
     <MESSAGE value="Update README" />
     <MESSAGE value="Some changes" />
     <MESSAGE value="Adding Google API SDK v2" />
@@ -1606,7 +1605,8 @@
     <MESSAGE value="Added dependency groups to Gradle #1" />
     <MESSAGE value="Removing jars" />
     <MESSAGE value="Adding String encrypt and decrypt methods using DESede #9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding String encrypt and decrypt methods using DESede #9" />
+    <MESSAGE value="Using encryption with DESese for access token .auth file #9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using encryption with DESese for access token .auth file #9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1864,14 +1864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1908,16 +1900,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/operations/gdrive/Token.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/operations/dropbox/Token.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1938,6 +1920,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/operations/gdrive/Token.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="24" column="59" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
           <folding />
         </state>
       </provider>

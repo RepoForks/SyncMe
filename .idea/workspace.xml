@@ -86,8 +86,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="421" lean-forward="false" selection-start-line="3" selection-start-column="421" selection-end-line="3" selection-end-column="421" />
+            <state relative-caret-position="34">
+              <caret line="2" column="134" lean-forward="false" selection-start-line="2" selection-start-column="134" selection-end-line="2" selection-end-column="134" />
               <folding />
             </state>
           </provider>
@@ -949,13 +949,6 @@
       <option name="presentableId" value="Default" />
       <updated>1485615542522</updated>
     </task>
-    <task id="LOCAL-00042" summary="Added StringHelper tool">
-      <created>1485730673937</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1485730673937</updated>
-    </task>
     <task id="LOCAL-00043" summary="Backwards traversing working at first depth level">
       <created>1485730964345</created>
       <option name="number" value="00043" />
@@ -1292,7 +1285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1487467057686</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Adding badges">
+      <created>1487467702623</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1487467702623</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1334,7 +1334,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added USAGE.md" />
     <MESSAGE value="Added AUTHOR, modified README" />
     <MESSAGE value="Added missing files" />
     <MESSAGE value="Updated README" />
@@ -1359,7 +1358,8 @@
     <MESSAGE value="Added Gradle wrapper task for Travis" />
     <MESSAGE value="Fix gradle for Travis ??" />
     <MESSAGE value="Fix Travis ??" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix Travis ??" />
+    <MESSAGE value="Adding badges" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding badges" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1680,8 +1680,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="421" lean-forward="false" selection-start-line="3" selection-start-column="421" selection-end-line="3" selection-end-column="421" />
+        <state relative-caret-position="34">
+          <caret line="2" column="134" lean-forward="false" selection-start-line="2" selection-start-column="134" selection-end-line="2" selection-end-column="134" />
           <folding />
         </state>
       </provider>

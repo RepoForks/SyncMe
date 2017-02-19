@@ -1,4 +1,5 @@
 language: java
+sudo: false
 
 jdk:
   - oraclejdk8
@@ -7,22 +8,17 @@ branches:
   only:
     - master
 
-sudo: false
 env:
   - TERM=dumb
-
-cache:
-  directories:
-  - $HOME/.gradle
 
 before_install:
  - chmod +x gradlew
 
 install:
- - gradle assemble
+ -
 
 script:
-  - git add .
+  - echo "TO-DO";
 
 notifications:
   email: false

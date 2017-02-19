@@ -7,6 +7,8 @@ import com.dropbox.core.DbxException;
 import com.dropbox.core.DbxRequestConfig;
 import com.dropbox.core.DbxWebAuth;
 import com.dropbox.core.json.JsonReader;
+import tools.security.StringHash;
+
 import java.io.File;
 import java.io.IOException;
 
@@ -79,7 +81,7 @@ public class Token {
         initialize();
 
         // Save auth information to output file.
-        DbxAuthInfo authInfo = new DbxAuthInfo(authFinish.getAccessToken(), appInfo.getHost());
+        DbxAuthInfo authInfo = new DbxAuthInfo(StringHash.encrypt(authFinish.getAccessToken()), appInfo.getHost());
         File output = new File(argAuthFileOutput);
         try {
             DbxAuthInfo.Writer.writeToFile(authInfo, output);

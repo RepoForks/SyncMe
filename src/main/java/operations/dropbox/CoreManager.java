@@ -3,6 +3,7 @@ package operations.dropbox;
 import com.dropbox.core.DbxRequestConfig;
 import com.dropbox.core.v2.DbxClientV2;
 import tools.data.JSONParser;
+import tools.security.StringHash;
 import tools.system.FileChecker;
 
 /**
@@ -26,7 +27,7 @@ public class CoreManager {
     }
 
     public static void setAccessToken(String newAccessToken) {
-        CoreManager.ACCESS_TOKEN = newAccessToken;
+        CoreManager.ACCESS_TOKEN = StringHash.decrypt(newAccessToken);
     }
 
     public static void updateAccessTokenFromFile() {

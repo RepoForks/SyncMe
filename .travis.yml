@@ -1,4 +1,18 @@
 language: java
-script: gradle check
+
+jdk:
+  - oraclejdk8
+
+branches:
+  only:
+    - master
+
+cache:
+  directories:
+  - $HOME/.gradle
+
+script:
+  - git add .
+
 notifications:
   email: false

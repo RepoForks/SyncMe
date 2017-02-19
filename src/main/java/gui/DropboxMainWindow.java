@@ -3,7 +3,6 @@ package gui;
 import operations.dropbox.Indexing;
 import structures.ContentTree;
 import tools.helpers.StringHelper;
-import tools.system.FileChecker;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -14,8 +13,6 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
-
-import static com.sun.org.apache.xalan.internal.utils.SecuritySupport.getResourceAsStream;
 
 /**
  * Created by @AdrianBZG (www.adrianbazaga.com) on 29/01/2017.

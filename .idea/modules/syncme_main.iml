@@ -26,24 +26,6 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../lib/javax.servlet-5.1.12.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../lib/servlet-api-2.5.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
           <root url="jar://$MODULE_DIR$/../../lib/javax.servlet-3.0.jar!/" />
         </CLASSES>
         <JAVADOC />
@@ -171,6 +153,15 @@
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../lib/gdrive/google-api-services-drive-v3-rev56-1.22.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../lib/commons-codec-1.4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

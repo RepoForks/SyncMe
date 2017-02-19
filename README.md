@@ -1,7 +1,7 @@
 # SyncMe
 [![SyncMe Logo](https://syncme.files.wordpress.com/2016/04/header.png?w=624)](https://syncme.wordpress.com/)<br><br>
 Build Status: [![Build Status](https://travis-ci.org/AdrianBZG/SyncMe.svg?branch=master)](https://travis-ci.org/AdrianBZG/SyncMe) <br>
-<p align="center">[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)]() [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![David](https://img.shields.io/david/strongloop/express.svg)]() [![Swag](https://img.shields.io/badge/swag-100%25-brightgreen.svg)]()</p>
+<p align="center"><img src="https://badges.frapsoft.com/os/v1/open-source.png?v=103"> <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"> <img src="https://img.shields.io/david/strongloop/express.svg"> <img src="https://img.shields.io/badge/swag-100%25-brightgreen.svg"></p>
 
 SyncMe is a cross-platform application (Linux, Windows, Mac) with the main goal of unify the synchronization of Dropbox and Google Drive platforms into a single application, allowing you to manage all your files easily.
 

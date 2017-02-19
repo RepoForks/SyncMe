@@ -87,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="355" lean-forward="false" selection-start-line="3" selection-start-column="355" selection-end-line="3" selection-end-column="355" />
+              <caret line="3" column="287" lean-forward="false" selection-start-line="3" selection-start-column="287" selection-end-line="3" selection-end-column="287" />
               <folding />
             </state>
           </provider>
@@ -949,13 +949,6 @@
       <option name="presentableId" value="Default" />
       <updated>1485615542522</updated>
     </task>
-    <task id="LOCAL-00047" summary="Starting with Create Folder window">
-      <created>1485732750112</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1485732750112</updated>
-    </task>
     <task id="LOCAL-00048" summary="Added CreateFolder operation">
       <created>1485733004284</created>
       <option name="number" value="00048" />
@@ -1292,7 +1285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1487468067364</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="Adding badges">
+      <created>1487468173453</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1487468173453</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1681,7 +1681,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="355" lean-forward="false" selection-start-line="3" selection-start-column="355" selection-end-line="3" selection-end-column="355" />
+          <caret line="3" column="287" lean-forward="false" selection-start-line="3" selection-start-column="287" selection-end-line="3" selection-end-column="287" />
           <folding />
         </state>
       </provider>

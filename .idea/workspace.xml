@@ -86,8 +86,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="134" lean-forward="false" selection-start-line="2" selection-start-column="134" selection-end-line="2" selection-end-column="134" />
+            <state relative-caret-position="51">
+              <caret line="3" column="179" lean-forward="false" selection-start-line="3" selection-start-column="179" selection-end-line="3" selection-end-column="179" />
               <folding />
             </state>
           </provider>
@@ -949,13 +949,6 @@
       <option name="presentableId" value="Default" />
       <updated>1485615542522</updated>
     </task>
-    <task id="LOCAL-00043" summary="Backwards traversing working at first depth level">
-      <created>1485730964345</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1485730964345</updated>
-    </task>
     <task id="LOCAL-00044" summary="Fixing going traversing forward with ANY depth level">
       <created>1485731329471</created>
       <option name="number" value="00044" />
@@ -1292,7 +1285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1487467702623</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="Adding badges">
+      <created>1487467796045</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1487467796045</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1680,8 +1680,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="134" lean-forward="false" selection-start-line="2" selection-start-column="134" selection-end-line="2" selection-end-column="134" />
+        <state relative-caret-position="51">
+          <caret line="3" column="179" lean-forward="false" selection-start-line="3" selection-start-column="179" selection-end-line="3" selection-end-column="179" />
           <folding />
         </state>
       </provider>

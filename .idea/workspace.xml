@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="03702cc5-9b61-41c3-9eac-0aeb602fb05b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -33,21 +33,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+            <state relative-caret-position="272">
+              <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="187">
+              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -453,7 +453,6 @@
         <option value="$PROJECT_DIR$/src/main/java/tools/helpers/WebBrowserHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/SplashScreen.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/UploadFileWindow.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/gui/InitialWindow.java" />
         <option value="$PROJECT_DIR$/src/main/java/operations/dropbox/gdrive/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/operations/gdrive/Token.java" />
@@ -464,6 +463,7 @@
         <option value="$PROJECT_DIR$/src/main/java/operations/gdrive/Account.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -894,13 +894,6 @@
       <option name="presentableId" value="Default" />
       <updated>1485615542522</updated>
     </task>
-    <task id="LOCAL-00037" summary="Dropbox account info window is working">
-      <created>1485726302468</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1485726302468</updated>
-    </task>
     <task id="LOCAL-00038" summary="Playing with the content tree on main Dropbox window">
       <created>1485726831106</created>
       <option name="number" value="00038" />
@@ -1237,7 +1230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1487465520627</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="gradlew permissions for Travis">
+      <created>1487465641278</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1487465641278</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1279,7 +1279,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Uploading file is working" />
     <MESSAGE value="Created web browser helper to open pages on desktop" />
     <MESSAGE value="Opening SyncMe repo when clicking LICENSE" />
     <MESSAGE value="Added INSTALL.md" />
@@ -1304,7 +1303,8 @@
     <MESSAGE value="Removing some unused packages" />
     <MESSAGE value="Starting with Travis CI" />
     <MESSAGE value="Setting .travis.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting .travis.yml" />
+    <MESSAGE value="gradlew permissions for Travis" />
+    <option name="LAST_COMMIT_MESSAGE" value="gradlew permissions for Travis" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1604,14 +1604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1622,8 +1614,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="187">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding />
         </state>
       </provider>

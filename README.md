@@ -5,7 +5,7 @@
 
 SyncMe is a cross-platform application (Linux, Windows, Mac) with the main goal of unify the synchronization of Dropbox and Google Drive platforms into a single application, allowing you to manage all your files easily.
 
-Developer website: [Adri·n RodrÌguez Bazaga](http://www.adrianbazaga.com/)
+Developer website: [Adri√°n Rodr√≠guez Bazaga](http://www.adrianbazaga.com/)
 
 Please note that development is very early on and the project is not ready to use yet.
 
@@ -48,12 +48,12 @@ SyncMe v2 has been rewritten from SCRATCH by the author, for more info see [AUTH
 
 ## CONTACT
 
-You can contact me by sending an email to [arodriba@ull.es](mailto:arodriba@ull.es)
+You can contact me by sending an email to [adrian@qmindgroup.com](mailto:adrian@qmindgroup.com)
 
 LICENSE
 =======
 ``` java
-Copyright 2017 Adri·n RodrÌguez Bazaga
+Copyright 2017 Adri√°n Rodr√≠guez Bazaga
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -70,11 +70,11 @@ You may obtain a copy of the License at
 
 ## ADDITIONAL LICENSE TERMS
 ``` java
-1. You CAN NOT profit from using/modifying this project
-2. You CAN NOT create any derivative/modified work from this one inflinging the terms of the attached LICENSE
+1. You SHOULD NOT profit from using/modifying this project
+2. You SHOULD NOT create any derivative/modified work from this one inflinging the terms of the attached LICENSE
 3. You MUST keep the NOTICE file content in any derivative work from this one, as the attached LICENSE stipulates
-4. You CAN NOT be intended to use SyncMe for commercial uses WITHOUT the original AUTHOR knowledge and permission
-5. You CAN NOT expect to have regular updates on the project (I am studying and working, so time ~= 0)
+4. You SHOULD NOT be intended to use SyncMe for commercial uses WITHOUT the original AUTHOR knowledge and permission
+5. You SHOULD NOT expect to have regular updates on the project (I am studying and working, so time ~= 0)
 6. You SHOULD contribute to the project to make it better
 ```
 

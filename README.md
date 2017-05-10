@@ -81,24 +81,24 @@ You may obtain a copy of the License at
 ## Screenshots
 
 Splash screen (Pre-release 0.1.0)<br>
-<div style="text-align:center"><img src="http://i.imgur.com/9RPBtdd.png"></div><br>
+<p align="center"><img src="http://i.imgur.com/9RPBtdd.png"><br>
 
 Initial screen (Pre-release 0.1.0)<br>
-<div style="text-align:center"><img src="http://i.imgur.com/x98yghy.png"></div><br>
+<img src="http://i.imgur.com/x98yghy.png"><br>
 
 Connecting to your Dropbox account (Pre-release 0.1.0)<br>
-<div style="text-align:center"><img src="http://i.imgur.com/aqIKVPj.png"></div><br><br>
-<div style="text-align:center"><img src="http://i.imgur.com/Gxu5k5V.png"></div><br><br>
-<div style="text-align:center"><img src="http://i.imgur.com/LsWJ6Kv.png"></div><br>
+<img src="http://i.imgur.com/aqIKVPj.png"><br><br>
+<img src="http://i.imgur.com/Gxu5k5V.png"><br><br>
+<img src="http://i.imgur.com/LsWJ6Kv.png"><br>
 
 Dropbox main window (Pre-release 0.1.0)<br>
-<div style="text-align:center"><img src="http://i.imgur.com/wrjWT9V.png"></div><br>
+<img src="http://i.imgur.com/wrjWT9V.png"><br>
 
 Uploading a file (Pre-release 0.1.0)<br>
-<div style="text-align:center"><img src="http://i.imgur.com/DdjtKvv.png"></div><br>
+<img src="http://i.imgur.com/DdjtKvv.png"><br>
 
 Creating a new folder (Pre-release 0.1.0)<br>
-<div style="text-align:center"><img src="http://i.imgur.com/JyGt0h3.png"></div><br>
+<img src="http://i.imgur.com/JyGt0h3.png"><br>
 
 Dropbox account info view (Pre-release 0.1.0)<br>
-<div style="text-align:center"><img src="http://i.imgur.com/MrloyLO.png"></div><br>
+<img src="http://i.imgur.com/MrloyLO.png"><br></p>
